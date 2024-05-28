@@ -1,4 +1,4 @@
-import type { IEncoder, IMessage } from "@synapse/interfaces";
+import type { IEncoder, IMessage } from "@bpx-chain/synapse-interfaces";
 
 const MB = 1024 ** 2;
 const SIZE_CAP_IN_MB = 1;

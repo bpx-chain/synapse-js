@@ -9,72 +9,72 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.11 to 0.0.12
-    * @synapse/interfaces bumped from 0.0.8 to 0.0.9
+    * @bpx-chain/synapse-core bumped from 0.0.11 to 0.0.12
+    * @bpx-chain/synapse-interfaces bumped from 0.0.8 to 0.0.9
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.12 to 0.0.13
-    * @synapse/interfaces bumped from 0.0.9 to 0.0.10
-    * @synapse/proto bumped from 0.0.3 to 0.0.4
-    * @synapse/utils bumped from 0.0.2 to 0.0.3
+    * @bpx-chain/synapse-core bumped from 0.0.12 to 0.0.13
+    * @bpx-chain/synapse-interfaces bumped from 0.0.9 to 0.0.10
+    * @bpx-chain/synapse-proto bumped from 0.0.3 to 0.0.4
+    * @bpx-chain/synapse-utils bumped from 0.0.2 to 0.0.3
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.14 to 0.0.15
+    * @bpx-chain/synapse-core bumped from 0.0.14 to 0.0.15
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.15 to 0.0.16
-    * @synapse/interfaces bumped from 0.0.10 to 0.0.11
-    * @synapse/utils bumped from 0.0.3 to 0.0.4
+    * @bpx-chain/synapse-core bumped from 0.0.15 to 0.0.16
+    * @bpx-chain/synapse-interfaces bumped from 0.0.10 to 0.0.11
+    * @bpx-chain/synapse-utils bumped from 0.0.3 to 0.0.4
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.18 to 0.0.19
-    * @synapse/interfaces bumped from 0.0.13 to 0.0.14
-    * @synapse/proto bumped from * to 0.0.5
-    * @synapse/utils bumped from 0.0.6 to 0.0.7
+    * @bpx-chain/synapse-core bumped from 0.0.18 to 0.0.19
+    * @bpx-chain/synapse-interfaces bumped from 0.0.13 to 0.0.14
+    * @bpx-chain/synapse-proto bumped from * to 0.0.5
+    * @bpx-chain/synapse-utils bumped from 0.0.6 to 0.0.7
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.19 to 0.0.20
-    * @synapse/interfaces bumped from 0.0.14 to 0.0.15
-    * @synapse/utils bumped from 0.0.7 to 0.0.8
+    * @bpx-chain/synapse-core bumped from 0.0.19 to 0.0.20
+    * @bpx-chain/synapse-interfaces bumped from 0.0.14 to 0.0.15
+    * @bpx-chain/synapse-utils bumped from 0.0.7 to 0.0.8
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.21 to 0.0.22
-    * @synapse/interfaces bumped from 0.0.16 to 0.0.17
-    * @synapse/utils bumped from 0.0.9 to 0.0.10
+    * @bpx-chain/synapse-core bumped from 0.0.21 to 0.0.22
+    * @bpx-chain/synapse-interfaces bumped from 0.0.16 to 0.0.17
+    * @bpx-chain/synapse-utils bumped from 0.0.9 to 0.0.10
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.22 to 0.0.23
-    * @synapse/interfaces bumped from 0.0.17 to 0.0.18
-    * @synapse/utils bumped from 0.0.10 to 0.0.11
+    * @bpx-chain/synapse-core bumped from 0.0.22 to 0.0.23
+    * @bpx-chain/synapse-interfaces bumped from 0.0.17 to 0.0.18
+    * @bpx-chain/synapse-utils bumped from 0.0.10 to 0.0.11
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.26 to 0.0.27
-    * @synapse/interfaces bumped from 0.0.21 to 0.0.22
-    * @synapse/utils bumped from 0.0.14 to 0.0.15
+    * @bpx-chain/synapse-core bumped from 0.0.26 to 0.0.27
+    * @bpx-chain/synapse-interfaces bumped from 0.0.21 to 0.0.22
+    * @bpx-chain/synapse-utils bumped from 0.0.14 to 0.0.15
 
 ## [0.0.27](https://github.com/bpx-chain/synapse-js/compare/message-encryption-v0.0.26...message-encryption-v0.0.27) (2024-04-30)
 
@@ -92,10 +92,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.28 to 0.0.29
-    * @synapse/interfaces bumped from 0.0.23 to 0.0.24
-    * @synapse/proto bumped from 0.0.6 to 0.0.7
-    * @synapse/utils bumped from 0.0.16 to 0.0.17
+    * @bpx-chain/synapse-core bumped from 0.0.28 to 0.0.29
+    * @bpx-chain/synapse-interfaces bumped from 0.0.23 to 0.0.24
+    * @bpx-chain/synapse-proto bumped from 0.0.6 to 0.0.7
+    * @bpx-chain/synapse-utils bumped from 0.0.16 to 0.0.17
 
 ## [0.0.26](https://github.com/bpx-chain/synapse-js/compare/message-encryption-v0.0.25...message-encryption-v0.0.26) (2024-04-09)
 
@@ -109,9 +109,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.27 to 0.0.28
-    * @synapse/interfaces bumped from 0.0.22 to 0.0.23
-    * @synapse/utils bumped from 0.0.15 to 0.0.16
+    * @bpx-chain/synapse-core bumped from 0.0.27 to 0.0.28
+    * @bpx-chain/synapse-interfaces bumped from 0.0.22 to 0.0.23
+    * @bpx-chain/synapse-utils bumped from 0.0.15 to 0.0.16
 
 ## [0.0.24](https://github.com/bpx-chain/synapse-js/compare/message-encryption-v0.0.23...message-encryption-v0.0.24) (2024-01-10)
 
@@ -139,10 +139,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.25 to 0.0.26
-    * @synapse/interfaces bumped from 0.0.20 to 0.0.21
-    * @synapse/proto bumped from 0.0.5 to 0.0.6
-    * @synapse/utils bumped from 0.0.13 to 0.0.14
+    * @bpx-chain/synapse-core bumped from 0.0.25 to 0.0.26
+    * @bpx-chain/synapse-interfaces bumped from 0.0.20 to 0.0.21
+    * @bpx-chain/synapse-proto bumped from 0.0.5 to 0.0.6
+    * @bpx-chain/synapse-utils bumped from 0.0.13 to 0.0.14
 
 ## [0.0.23](https://github.com/bpx-chain/synapse-js/compare/message-encryption-v0.0.22...message-encryption-v0.0.23) (2023-11-01)
 
@@ -156,9 +156,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.24 to 0.0.25
-    * @synapse/interfaces bumped from 0.0.19 to 0.0.20
-    * @synapse/utils bumped from 0.0.12 to 0.0.13
+    * @bpx-chain/synapse-core bumped from 0.0.24 to 0.0.25
+    * @bpx-chain/synapse-interfaces bumped from 0.0.19 to 0.0.20
+    * @bpx-chain/synapse-utils bumped from 0.0.12 to 0.0.13
 
 ## [0.0.22](https://github.com/bpx-chain/synapse-js/compare/message-encryption-v0.0.21...message-encryption-v0.0.22) (2023-10-16)
 
@@ -177,9 +177,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.23 to 0.0.24
-    * @synapse/interfaces bumped from 0.0.18 to 0.0.19
-    * @synapse/utils bumped from 0.0.11 to 0.0.12
+    * @bpx-chain/synapse-core bumped from 0.0.23 to 0.0.24
+    * @bpx-chain/synapse-interfaces bumped from 0.0.18 to 0.0.19
+    * @bpx-chain/synapse-utils bumped from 0.0.11 to 0.0.12
 
 ## [0.0.19](https://github.com/bpx-chain/synapse-js/compare/message-encryption-v0.0.18...message-encryption-v0.0.19) (2023-07-26)
 
@@ -197,29 +197,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.20 to 0.0.21
-    * @synapse/interfaces bumped from 0.0.15 to 0.0.16
-    * @synapse/utils bumped from 0.0.8 to 0.0.9
+    * @bpx-chain/synapse-core bumped from 0.0.20 to 0.0.21
+    * @bpx-chain/synapse-interfaces bumped from 0.0.15 to 0.0.16
+    * @bpx-chain/synapse-utils bumped from 0.0.8 to 0.0.9
 
 ## [0.0.16](https://github.com/bpx-chain/synapse-js/compare/message-encryption-v0.0.15...message-encryption-v0.0.16) (2023-05-18)
 
 
 ### ⚠ BREAKING CHANGES
 
-* @synapse/relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316))
+* @bpx-chain/synapse-relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316))
 
 ### Features
 
-* @synapse/relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316)) ([50c2c25](https://github.com/bpx-chain/synapse-js/commit/50c2c2540f3c5ff78d93f3fea646da0eee246e17))
+* @bpx-chain/synapse-relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316)) ([50c2c25](https://github.com/bpx-chain/synapse-js/commit/50c2c2540f3c5ff78d93f3fea646da0eee246e17))
 
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from * to 0.0.18
-    * @synapse/interfaces bumped from * to 0.0.13
-    * @synapse/utils bumped from * to 0.0.6
+    * @bpx-chain/synapse-core bumped from * to 0.0.18
+    * @bpx-chain/synapse-interfaces bumped from * to 0.0.13
+    * @bpx-chain/synapse-utils bumped from * to 0.0.6
 
 ## [0.0.15](https://github.com/bpx-chain/synapse-js/compare/message-encryption-v0.0.14...message-encryption-v0.0.15) (2023-05-09)
 
@@ -233,16 +233,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.16 to 0.0.17
-    * @synapse/interfaces bumped from 0.0.11 to 0.0.12
-    * @synapse/utils bumped from 0.0.4 to 0.0.5
+    * @bpx-chain/synapse-core bumped from 0.0.16 to 0.0.17
+    * @bpx-chain/synapse-interfaces bumped from 0.0.11 to 0.0.12
+    * @bpx-chain/synapse-utils bumped from 0.0.4 to 0.0.5
 
 ## [0.0.10](https://github.com/bpx-chain/synapse-js/compare/message-encryption-v0.0.9...message-encryption-v0.0.10) (2023-03-16)
 
 
 ### ⚠ BREAKING CHANGES
 
-* add exports map to @synapse/utils ([#1201](https://github.com/bpx-chain/synapse-js/issues/1201))
+* add exports map to @bpx-chain/synapse-utils ([#1201](https://github.com/bpx-chain/synapse-js/issues/1201))
 * enable encoding of `meta` field
 * expose pubsub topic in `IDecodedMessage`
 * update message.proto: payload and content topic are always defined
@@ -262,7 +262,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Miscellaneous Chores
 
-* Add exports map to @synapse/utils ([#1201](https://github.com/bpx-chain/synapse-js/issues/1201)) ([a30b2bd](https://github.com/bpx-chain/synapse-js/commit/a30b2bd747dedeef69b46cfafb88898ba35d8f67))
+* Add exports map to @bpx-chain/synapse-utils ([#1201](https://github.com/bpx-chain/synapse-js/issues/1201)) ([a30b2bd](https://github.com/bpx-chain/synapse-js/commit/a30b2bd747dedeef69b46cfafb88898ba35d8f67))
 * Bump typescript ([12d86e6](https://github.com/bpx-chain/synapse-js/commit/12d86e6abcc68e27c39ca86b4f0dc2b68cdd6000))
 * Update message.proto: payload and content topic are always defined ([5cf8ed2](https://github.com/bpx-chain/synapse-js/commit/5cf8ed2030c9efbc4c4b66aa801827482c1e4249))
 
@@ -271,10 +271,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from * to 0.0.11
-    * @synapse/interfaces bumped from * to 0.0.8
-    * @synapse/proto bumped from * to 0.0.3
-    * @synapse/utils bumped from * to 0.0.2
+    * @bpx-chain/synapse-core bumped from * to 0.0.11
+    * @bpx-chain/synapse-interfaces bumped from * to 0.0.8
+    * @bpx-chain/synapse-proto bumped from * to 0.0.3
+    * @bpx-chain/synapse-utils bumped from * to 0.0.2
 
 ## [Unreleased]
 
@@ -321,7 +321,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - `Asymmetric` renamed to `ECIES` to follow RFC terminology.
-- Split `ECIES` and `symmetric` packages, all items are now export from two different paths: `@synapse/message-encryption/ecies` and `@synapse/message-encryption/symmetric`.
+- Split `ECIES` and `symmetric` packages, all items are now export from two different paths: `@bpx-chain/synapse-message-encryption/ecies` and `@bpx-chain/synapse-message-encryption/symmetric`.
 - remove `asym` and `sym` prefix from exported items as they are now differentiated from their export path: `createEncoder`, `createDecoder`, `DecodedMessage`.
 - Remove usage for `Partial` with `Message` as `Message`'s field are all optional.
 
@@ -329,15 +329,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Alpha version of `@synapse/message-encryption`.
+- Alpha version of `@bpx-chain/synapse-message-encryption`.
 
-[unreleased]: https://github.com/bpx-chain/synapse-js/compare/@synapse/message-encryption@0.0.9...HEAD
-[0.0.9]: https://github.com/bpx-chain/synapse-js/compare/@synapse/message-encryption@0.0.8...@synapse/message-encryption@0.0.9
-[0.0.8]: https://github.com/bpx-chain/synapse-js/compare/@synapse/message-encryption@0.0.7...@synapse/message-encryption@0.0.8
-[0.0.7]: https://github.com/bpx-chain/synapse-js/compare/@synapse/message-encryption@0.0.6...@synapse/message-encryption@0.0.7
-[0.0.6]: https://github.com/bpx-chain/synapse-js/compare/@synapse/message-encryption@0.0.5...@synapse/message-encryption@0.0.6
-[0.0.5]: https://github.com/bpx-chain/synapse-js/compare/@synapse/message-encryption@0.0.4...@synapse/message-encryption@0.0.5
-[0.0.4]: https://github.com/bpx-chain/synapse-js/compare/@synapse/message-encryption@0.0.3...@synapse/message-encryption@0.0.4
-[0.0.3]: https://github.com/bpx-chain/synapse-js/compare/@synapse/message-encryption@0.0.2...%40waku/message-encryption@0.0.3
-[0.0.2]: https://github.com/bpx-chain/synapse-js/compare/@synapse/message-encryption@0.0.1...%40waku/message-encryption@0.0.2
+[unreleased]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-message-encryption@0.0.9...HEAD
+[0.0.9]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-message-encryption@0.0.8...@bpx-chain/synapse-message-encryption@0.0.9
+[0.0.8]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-message-encryption@0.0.7...@bpx-chain/synapse-message-encryption@0.0.8
+[0.0.7]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-message-encryption@0.0.6...@bpx-chain/synapse-message-encryption@0.0.7
+[0.0.6]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-message-encryption@0.0.5...@bpx-chain/synapse-message-encryption@0.0.6
+[0.0.5]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-message-encryption@0.0.4...@bpx-chain/synapse-message-encryption@0.0.5
+[0.0.4]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-message-encryption@0.0.3...@bpx-chain/synapse-message-encryption@0.0.4
+[0.0.3]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-message-encryption@0.0.2...%40waku/message-encryption@0.0.3
+[0.0.2]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-message-encryption@0.0.1...%40waku/message-encryption@0.0.2
 [0.0.1]: https://github.com/status-im/js-waku/compare/a20b7809d61ff9a9732aba82b99bbe99f229b935...%40waku/message-encryption%400.0.2

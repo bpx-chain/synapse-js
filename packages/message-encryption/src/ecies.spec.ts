@@ -1,5 +1,5 @@
-import { IProtoMessage } from "@synapse/interfaces";
-import { contentTopicToPubsubTopic } from "@synapse/utils";
+import { IProtoMessage } from "@bpx-chain/synapse-interfaces";
+import { contentTopicToPubsubTopic } from "@bpx-chain/synapse-utils";
 import { expect } from "chai";
 import fc from "fast-check";
 

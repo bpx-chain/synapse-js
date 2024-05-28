@@ -1,16 +1,16 @@
 import type { Multiaddr } from "@multiformats/multiaddr";
-import { createDecoder, DecodedMessage, waitForRemotePeer } from "@synapse/core";
+import { createDecoder, DecodedMessage, waitForRemotePeer } from "@bpx-chain/synapse-core";
 import {
   Callback,
   IDecoder,
   ISubscriptionSDK,
   LightNode,
   Protocols
-} from "@synapse/interfaces";
+} from "@bpx-chain/synapse-interfaces";
 import {
   contentTopicToPubsubTopic,
   shardInfoToPubsubTopics
-} from "@synapse/utils";
+} from "@bpx-chain/synapse-utils";
 
 import { createLightNode } from "../light-node/index.js";
 

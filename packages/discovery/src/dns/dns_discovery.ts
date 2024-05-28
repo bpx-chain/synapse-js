@@ -11,8 +11,8 @@ import type {
   DnsDiscoveryComponents,
   IEnr,
   NodeCapabilityCount
-} from "@synapse/interfaces";
-import { encodeRelayShard, Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { encodeRelayShard, Logger } from "@bpx-chain/synapse-utils";
 
 import {
   DEFAULT_BOOTSTRAP_TAG_NAME,
@@ -131,7 +131,7 @@ export class PeerDiscoveryDns
   }
 
   get [Symbol.toStringTag](): string {
-    return "@synapse/bootstrap";
+    return "@bpx-chain/synapse-bootstrap";
   }
 }
 

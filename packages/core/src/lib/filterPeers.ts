@@ -1,5 +1,5 @@
 import { Peer } from "@libp2p/interface";
-import { Tags } from "@synapse/interfaces";
+import { Tags } from "@bpx-chain/synapse-interfaces";
 
 /**
  * Retrieves a list of peers based on the specified criteria:

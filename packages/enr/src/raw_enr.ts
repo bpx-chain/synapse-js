@@ -9,9 +9,9 @@ import type {
   SequenceNumber,
   ShardInfo,
   Waku2
-} from "@synapse/interfaces";
-import { decodeRelayShard } from "@synapse/utils";
-import { bytesToUtf8 } from "@synapse/utils/bytes";
+} from "@bpx-chain/synapse-interfaces";
+import { decodeRelayShard } from "@bpx-chain/synapse-utils";
+import { bytesToUtf8 } from "@bpx-chain/synapse-utils/bytes";
 
 import { ERR_INVALID_ID } from "./constants.js";
 import { decodeMultiaddrs, encodeMultiaddrs } from "./multiaddrs_codec.js";

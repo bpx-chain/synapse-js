@@ -6,7 +6,7 @@ import { mplex } from "@libp2p/mplex";
 import { ping } from "@libp2p/ping";
 import { webSockets } from "@libp2p/websockets";
 import { all as filterAll, wss } from "@libp2p/websockets/filters";
-import { wakuMetadata } from "@synapse/core";
+import { wakuMetadata } from "@bpx-chain/synapse-core";
 import {
   type CreateLibp2pOptions,
   DefaultPubsubTopic,
@@ -14,9 +14,9 @@ import {
   type Libp2p,
   type Libp2pComponents,
   type ShardInfo
-} from "@synapse/interfaces";
-import { wakuGossipSub } from "@synapse/relay";
-import { ensureShardingConfigured, Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { wakuGossipSub } from "@bpx-chain/synapse-relay";
+import { ensureShardingConfigured, Logger } from "@bpx-chain/synapse-utils";
 import { createLibp2p } from "libp2p";
 
 import {

@@ -4,8 +4,8 @@ import {
   wakuDnsDiscovery,
   wakuLocalPeerCacheDiscovery,
   wakuPeerExchangeDiscovery
-} from "@synapse/discovery";
-import { type Libp2pComponents, PubsubTopic } from "@synapse/interfaces";
+} from "@bpx-chain/synapse-discovery";
+import { type Libp2pComponents, PubsubTopic } from "@bpx-chain/synapse-interfaces";
 
 const DEFAULT_NODE_REQUIREMENTS = {
   lightPush: 1,

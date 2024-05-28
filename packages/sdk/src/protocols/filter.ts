@@ -1,5 +1,5 @@
 import type { Peer } from "@libp2p/interface";
-import { FilterCore } from "@synapse/core";
+import { FilterCore } from "@bpx-chain/synapse-core";
 import {
   type Callback,
   type ContentTopic,
@@ -19,16 +19,16 @@ import {
   type ShardingParams,
   SubscribeOptions,
   type Unsubscribe
-} from "@synapse/interfaces";
-import { messageHashStr } from "@synapse/message-hash";
-import { WakuMessage } from "@synapse/proto";
+} from "@bpx-chain/synapse-interfaces";
+import { messageHashStr } from "@bpx-chain/synapse-message-hash";
+import { WakuMessage } from "@bpx-chain/synapse-proto";
 import {
   ensurePubsubTopicIsConfigured,
   groupByContentTopic,
   Logger,
   shardInfoToPubsubTopics,
   toAsyncIterator
-} from "@synapse/utils";
+} from "@bpx-chain/synapse-utils";
 
 import { BaseProtocolSDK } from "./base_protocol.js";
 

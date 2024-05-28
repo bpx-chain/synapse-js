@@ -1,6 +1,6 @@
-import { ENR } from "@synapse/enr";
-import { keccak256, verifySignature } from "@synapse/enr";
-import { utf8ToBytes } from "@synapse/utils/bytes";
+import { ENR } from "@bpx-chain/synapse-enr";
+import { keccak256, verifySignature } from "@bpx-chain/synapse-enr";
+import { utf8ToBytes } from "@bpx-chain/synapse-utils/bytes";
 import base32 from "hi-base32";
 import { fromString } from "uint8arrays/from-string";
 

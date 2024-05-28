@@ -1,5 +1,5 @@
-import { IProtoMessage } from "@synapse/interfaces";
-import { WakuMessage as WakuMessageProto } from "@synapse/proto";
+import { IProtoMessage } from "@bpx-chain/synapse-interfaces";
+import { WakuMessage as WakuMessageProto } from "@bpx-chain/synapse-proto";
 
 const EmptyMessage: IProtoMessage = {
   payload: new Uint8Array(),

@@ -1,5 +1,5 @@
 {
-  "name": "@synapse/discovery",
+  "name": "@bpx-chain/synapse-discovery",
   "version": "0.0.2",
   "description": "Contains various discovery mechanisms: DNS Discovery (EIP-1459, Peer Exchange, Local Peer Cache Discovery.",
   "types": "./dist/index.d.ts",
@@ -51,11 +51,11 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@synapse/interfaces": "0.0.24",
-    "@synapse/proto": "^0.0.7",
-    "@synapse/enr": "0.0.23",
-    "@synapse/core": "0.0.29",
-    "@synapse/utils": "0.0.17",
+    "@bpx-chain/synapse-interfaces": "0.0.24",
+    "@bpx-chain/synapse-proto": "^0.0.7",
+    "@bpx-chain/synapse-enr": "0.0.23",
+    "@bpx-chain/synapse-core": "0.0.29",
+    "@bpx-chain/synapse-utils": "0.0.17",
     "debug": "^4.3.4",
     "dns-query": "^0.11.2",
     "hi-base32": "^0.5.1",
@@ -70,7 +70,7 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@types/chai": "^4.3.11",
     "@types/node-localstorage": "^1.3.3",
-    "@synapse/build-utils": "*",
+    "@bpx-chain/synapse-build-utils": "*",
     "chai": "^4.3.10",
     "chai-as-promised": "^7.1.1",
     "cspell": "^8.6.1",
@@ -81,15 +81,15 @@
     "sinon": "^17.0.1"
   },
   "peerDependencies": {
-    "@synapse/core": "0.0.27",
-    "@synapse/enr": "0.0.21",
-    "@synapse/interfaces": "0.0.22",
-    "@synapse/proto": "0.0.6",
-    "@synapse/utils": "0.0.15",
+    "@bpx-chain/synapse-core": "0.0.27",
+    "@bpx-chain/synapse-enr": "0.0.21",
+    "@bpx-chain/synapse-interfaces": "0.0.22",
+    "@bpx-chain/synapse-proto": "0.0.6",
+    "@bpx-chain/synapse-utils": "0.0.15",
     "@libp2p/interface": "^1.1.2"
   },
   "peerDependenciesMeta": {
-    "@synapse/interfaces": {
+    "@bpx-chain/synapse-interfaces": {
       "optional": true
     },
     "@libp2p/interface": {

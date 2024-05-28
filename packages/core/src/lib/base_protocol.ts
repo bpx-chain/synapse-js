@@ -5,13 +5,13 @@ import type {
   Libp2pComponents,
   ProtocolCreateOptions,
   PubsubTopic
-} from "@synapse/interfaces";
-import { ensureShardingConfigured, Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { ensureShardingConfigured, Logger } from "@bpx-chain/synapse-utils";
 import {
   getConnectedPeersForProtocolAndShard,
   getPeersForProtocol,
   sortPeersByLatency
-} from "@synapse/utils/libp2p";
+} from "@bpx-chain/synapse-utils/libp2p";
 
 import { filterPeersByDiscovery } from "./filterPeers.js";
 import { StreamManager } from "./stream_manager.js";

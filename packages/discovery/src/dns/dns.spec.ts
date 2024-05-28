@@ -1,4 +1,4 @@
-import type { DnsClient } from "@synapse/interfaces";
+import type { DnsClient } from "@bpx-chain/synapse-interfaces";
 import { expect } from "chai";
 
 import { DnsNodeDiscovery } from "./dns.js";

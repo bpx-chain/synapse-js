@@ -1,4 +1,4 @@
-import { Decoder as DecoderV0 } from "@synapse/core/lib/message/version_0";
+import { Decoder as DecoderV0 } from "@bpx-chain/synapse-core/lib/message/version_0";
 import {
   type EncoderOptions as BaseEncoderOptions,
   type IDecoder,
@@ -8,9 +8,9 @@ import {
   type IProtoMessage,
   type PubsubTopic,
   type SingleShardInfo
-} from "@synapse/interfaces";
-import { WakuMessage } from "@synapse/proto";
-import { determinePubsubTopic, Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { WakuMessage } from "@bpx-chain/synapse-proto";
+import { determinePubsubTopic, Logger } from "@bpx-chain/synapse-utils";
 
 import { generatePrivateKey } from "./crypto/utils.js";
 import { DecodedMessage } from "./decoded_message.js";
@@ -95,8 +95,8 @@ export interface EncoderOptions extends BaseEncoderOptions {
  *
  * An encoder is used to encode messages in the [`14/WAKU2-MESSAGE](https://rfc.vac.dev/spec/14/)
  * format to be sent over the Waku network. The resulting encoder can then be
- * pass to { @link @synapse/interfaces!ISender.send } or
- * { @link @synapse/interfaces!ISender.send } to automatically encrypt
+ * pass to { @link @bpx-chain/synapse-interfaces!ISender.send } or
+ * { @link @bpx-chain/synapse-interfaces!ISender.send } to automatically encrypt
  * and encode outgoing messages.
  * The payload can optionally be signed with the given private key as defined
  * in [26/WAKU2-PAYLOAD](https://rfc.vac.dev/spec/26/).
@@ -190,7 +190,7 @@ class Decoder extends DecoderV0 implements IDecoder<DecodedMessage> {
  *
  * A decoder is used to decode messages from the [14/WAKU2-MESSAGE](https://rfc.vac.dev/spec/14/)
  * format when received from the Waku network. The resulting decoder can then be
- * pass to { @link @synapse/interfaces!IReceiver.subscribe } to automatically decrypt and
+ * pass to { @link @bpx-chain/synapse-interfaces!IReceiver.subscribe } to automatically decrypt and
  * decode incoming messages.
  *
  * @param contentTopic The resulting decoder will only decode messages with this content topic.

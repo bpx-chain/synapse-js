@@ -1,5 +1,5 @@
-import { BaseProtocol } from "@synapse/core/lib/base_protocol";
-import { EnrDecoder } from "@synapse/enr";
+import { BaseProtocol } from "@bpx-chain/synapse-core/lib/base_protocol";
+import { EnrDecoder } from "@bpx-chain/synapse-enr";
 import {
   IPeerExchange,
   Libp2pComponents,
@@ -7,9 +7,9 @@ import {
   PeerExchangeQueryResult,
   ProtocolError,
   PubsubTopic
-} from "@synapse/interfaces";
-import { isDefined } from "@synapse/utils";
-import { Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { isDefined } from "@bpx-chain/synapse-utils";
+import { Logger } from "@bpx-chain/synapse-utils";
 import all from "it-all";
 import * as lp from "it-length-prefixed";
 import { pipe } from "it-pipe";

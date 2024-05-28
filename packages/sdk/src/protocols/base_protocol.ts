@@ -1,4 +1,4 @@
-import { IBaseProtocolSDK } from "@synapse/interfaces";
+import { IBaseProtocolSDK } from "@bpx-chain/synapse-interfaces";
 
 interface Options {
   numPeersToUse?: number;

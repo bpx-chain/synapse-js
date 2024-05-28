@@ -4,26 +4,26 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.18 to 0.0.19
-    * @synapse/interfaces bumped from 0.0.13 to 0.0.14
-    * @synapse/proto bumped from * to 0.0.5
-    * @synapse/utils bumped from 0.0.6 to 0.0.7
+    * @bpx-chain/synapse-core bumped from 0.0.18 to 0.0.19
+    * @bpx-chain/synapse-interfaces bumped from 0.0.13 to 0.0.14
+    * @bpx-chain/synapse-proto bumped from * to 0.0.5
+    * @bpx-chain/synapse-utils bumped from 0.0.6 to 0.0.7
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.19 to 0.0.20
-    * @synapse/interfaces bumped from 0.0.14 to 0.0.15
-    * @synapse/utils bumped from 0.0.7 to 0.0.8
+    * @bpx-chain/synapse-core bumped from 0.0.19 to 0.0.20
+    * @bpx-chain/synapse-interfaces bumped from 0.0.14 to 0.0.15
+    * @bpx-chain/synapse-utils bumped from 0.0.7 to 0.0.8
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.21 to 0.0.22
-    * @synapse/interfaces bumped from 0.0.16 to 0.0.17
-    * @synapse/utils bumped from 0.0.9 to 0.0.10
+    * @bpx-chain/synapse-core bumped from 0.0.21 to 0.0.22
+    * @bpx-chain/synapse-interfaces bumped from 0.0.16 to 0.0.17
+    * @bpx-chain/synapse-utils bumped from 0.0.9 to 0.0.10
 
 ## [0.0.12](https://github.com/bpx-chain/synapse-js/compare/relay-v0.0.11...relay-v0.0.12) (2024-04-30)
 
@@ -41,17 +41,17 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.28 to 0.0.29
-    * @synapse/interfaces bumped from 0.0.23 to 0.0.24
-    * @synapse/proto bumped from 0.0.6 to 0.0.7
-    * @synapse/utils bumped from 0.0.16 to 0.0.17
+    * @bpx-chain/synapse-core bumped from 0.0.28 to 0.0.29
+    * @bpx-chain/synapse-interfaces bumped from 0.0.23 to 0.0.24
+    * @bpx-chain/synapse-proto bumped from 0.0.6 to 0.0.7
+    * @bpx-chain/synapse-utils bumped from 0.0.16 to 0.0.17
 
 ## [0.0.11](https://github.com/bpx-chain/synapse-js/compare/relay-v0.0.10...relay-v0.0.11) (2024-04-09)
 
 
 ### ⚠ BREAKING CHANGES
 
-* **lightpush:** move protocol implementation opinions to `@synapse/sdk` ([#1887](https://github.com/bpx-chain/synapse-js/issues/1887))
+* **lightpush:** move protocol implementation opinions to `@bpx-chain/synapse-sdk` ([#1887](https://github.com/bpx-chain/synapse-js/issues/1887))
 
 ### Features
 
@@ -61,16 +61,16 @@
 
 ### Miscellaneous Chores
 
-* **lightpush:** Move protocol implementation opinions to `@synapse/sdk` ([#1887](https://github.com/bpx-chain/synapse-js/issues/1887)) ([8deab11](https://github.com/bpx-chain/synapse-js/commit/8deab11890160b40a22e7d11926a2307afb93af4))
+* **lightpush:** Move protocol implementation opinions to `@bpx-chain/synapse-sdk` ([#1887](https://github.com/bpx-chain/synapse-js/issues/1887)) ([8deab11](https://github.com/bpx-chain/synapse-js/commit/8deab11890160b40a22e7d11926a2307afb93af4))
 
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.27 to 0.0.28
-    * @synapse/interfaces bumped from 0.0.22 to 0.0.23
-    * @synapse/utils bumped from 0.0.15 to 0.0.16
+    * @bpx-chain/synapse-core bumped from 0.0.27 to 0.0.28
+    * @bpx-chain/synapse-interfaces bumped from 0.0.22 to 0.0.23
+    * @bpx-chain/synapse-utils bumped from 0.0.15 to 0.0.16
 
 ## [0.0.10](https://github.com/bpx-chain/synapse-js/compare/relay-v0.0.9...relay-v0.0.10) (2024-03-04)
 
@@ -84,9 +84,9 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.26 to 0.0.27
-    * @synapse/interfaces bumped from 0.0.21 to 0.0.22
-    * @synapse/utils bumped from 0.0.14 to 0.0.15
+    * @bpx-chain/synapse-core bumped from 0.0.26 to 0.0.27
+    * @bpx-chain/synapse-interfaces bumped from 0.0.21 to 0.0.22
+    * @bpx-chain/synapse-utils bumped from 0.0.14 to 0.0.15
 
 ## [0.0.9](https://github.com/bpx-chain/synapse-js/compare/relay-v0.0.8...relay-v0.0.9) (2024-01-10)
 
@@ -111,10 +111,10 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.25 to 0.0.26
-    * @synapse/interfaces bumped from 0.0.20 to 0.0.21
-    * @synapse/proto bumped from 0.0.5 to 0.0.6
-    * @synapse/utils bumped from 0.0.13 to 0.0.14
+    * @bpx-chain/synapse-core bumped from 0.0.25 to 0.0.26
+    * @bpx-chain/synapse-interfaces bumped from 0.0.20 to 0.0.21
+    * @bpx-chain/synapse-proto bumped from 0.0.5 to 0.0.6
+    * @bpx-chain/synapse-utils bumped from 0.0.13 to 0.0.14
 
 ## [0.0.8](https://github.com/bpx-chain/synapse-js/compare/relay-v0.0.7...relay-v0.0.8) (2023-11-01)
 
@@ -134,9 +134,9 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.24 to 0.0.25
-    * @synapse/interfaces bumped from 0.0.19 to 0.0.20
-    * @synapse/utils bumped from 0.0.12 to 0.0.13
+    * @bpx-chain/synapse-core bumped from 0.0.24 to 0.0.25
+    * @bpx-chain/synapse-interfaces bumped from 0.0.19 to 0.0.20
+    * @bpx-chain/synapse-utils bumped from 0.0.12 to 0.0.13
 
 ## [0.0.7](https://github.com/bpx-chain/synapse-js/compare/relay-v0.0.6...relay-v0.0.7) (2023-10-16)
 
@@ -154,9 +154,9 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.23 to 0.0.24
-    * @synapse/interfaces bumped from 0.0.18 to 0.0.19
-    * @synapse/utils bumped from 0.0.11 to 0.0.12
+    * @bpx-chain/synapse-core bumped from 0.0.23 to 0.0.24
+    * @bpx-chain/synapse-interfaces bumped from 0.0.18 to 0.0.19
+    * @bpx-chain/synapse-utils bumped from 0.0.11 to 0.0.12
 
 ## [0.0.6](https://github.com/bpx-chain/synapse-js/compare/relay-v0.0.5...relay-v0.0.6) (2023-09-11)
 
@@ -174,9 +174,9 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.22 to 0.0.23
-    * @synapse/interfaces bumped from 0.0.17 to 0.0.18
-    * @synapse/utils bumped from 0.0.10 to 0.0.11
+    * @bpx-chain/synapse-core bumped from 0.0.22 to 0.0.23
+    * @bpx-chain/synapse-interfaces bumped from 0.0.17 to 0.0.18
+    * @bpx-chain/synapse-utils bumped from 0.0.10 to 0.0.11
 
 ## [0.0.4](https://github.com/bpx-chain/synapse-js/compare/relay-v0.0.3...relay-v0.0.4) (2023-07-26)
 
@@ -194,20 +194,20 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from 0.0.20 to 0.0.21
-    * @synapse/interfaces bumped from 0.0.15 to 0.0.16
-    * @synapse/utils bumped from 0.0.8 to 0.0.9
+    * @bpx-chain/synapse-core bumped from 0.0.20 to 0.0.21
+    * @bpx-chain/synapse-interfaces bumped from 0.0.15 to 0.0.16
+    * @bpx-chain/synapse-utils bumped from 0.0.8 to 0.0.9
 
 ## 0.0.1 (2023-05-18)
 
 
 ### ⚠ BREAKING CHANGES
 
-* @synapse/relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316))
+* @bpx-chain/synapse-relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316))
 
 ### Features
 
-* @synapse/relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316)) ([50c2c25](https://github.com/bpx-chain/synapse-js/commit/50c2c2540f3c5ff78d93f3fea646da0eee246e17))
+* @bpx-chain/synapse-relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316)) ([50c2c25](https://github.com/bpx-chain/synapse-js/commit/50c2c2540f3c5ff78d93f3fea646da0eee246e17))
 * Add 1MB restriction to LightPush and Relay ([#1351](https://github.com/bpx-chain/synapse-js/issues/1351)) ([72f97d4](https://github.com/bpx-chain/synapse-js/commit/72f97d4545512f92936b1a9b50fa0b53f8603f9d))
 
 
@@ -220,6 +220,6 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/core bumped from * to 0.0.18
-    * @synapse/interfaces bumped from * to 0.0.13
-    * @synapse/utils bumped from * to 0.0.6
+    * @bpx-chain/synapse-core bumped from * to 0.0.18
+    * @bpx-chain/synapse-interfaces bumped from * to 0.0.13
+    * @bpx-chain/synapse-utils bumped from * to 0.0.6

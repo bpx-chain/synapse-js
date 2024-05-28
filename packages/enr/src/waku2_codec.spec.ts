@@ -1,4 +1,4 @@
-import type { Waku2 } from "@synapse/interfaces";
+import type { Waku2 } from "@bpx-chain/synapse-interfaces";
 import { expect } from "chai";
 
 import { decodeWaku2, encodeWaku2 } from "./waku2_codec.js";

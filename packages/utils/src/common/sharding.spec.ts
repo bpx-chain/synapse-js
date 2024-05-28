@@ -1,4 +1,4 @@
-import { DEFAULT_CLUSTER_ID } from "@synapse/interfaces";
+import { DEFAULT_CLUSTER_ID } from "@bpx-chain/synapse-interfaces";
 import { expect } from "chai";
 
 import {

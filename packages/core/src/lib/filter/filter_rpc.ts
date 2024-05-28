@@ -1,4 +1,4 @@
-import { proto_filter_v2 as proto, WakuMessage } from "@synapse/proto";
+import { proto_filter_v2 as proto, WakuMessage } from "@bpx-chain/synapse-proto";
 import { v4 as uuid } from "uuid";
 
 /**

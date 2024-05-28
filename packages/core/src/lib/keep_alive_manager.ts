@@ -1,9 +1,9 @@
 import type { PeerId, PeerStore } from "@libp2p/interface";
 import type { PingService } from "@libp2p/ping";
-import type { IRelay, PeerIdStr } from "@synapse/interfaces";
-import type { KeepAliveOptions } from "@synapse/interfaces";
-import { Logger, pubsubTopicToSingleShardInfo } from "@synapse/utils";
-import { utf8ToBytes } from "@synapse/utils/bytes";
+import type { IRelay, PeerIdStr } from "@bpx-chain/synapse-interfaces";
+import type { KeepAliveOptions } from "@bpx-chain/synapse-interfaces";
+import { Logger, pubsubTopicToSingleShardInfo } from "@bpx-chain/synapse-utils";
+import { utf8ToBytes } from "@bpx-chain/synapse-utils/bytes";
 
 import { createEncoder } from "./message/version_0.js";
 

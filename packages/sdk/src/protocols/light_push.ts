@@ -1,5 +1,5 @@
 import type { PeerId } from "@libp2p/interface";
-import { LightPushCore } from "@synapse/core";
+import { LightPushCore } from "@bpx-chain/synapse-core";
 import {
   Failure,
   type IEncoder,
@@ -9,8 +9,8 @@ import {
   type ProtocolCreateOptions,
   ProtocolError,
   SDKProtocolResult
-} from "@synapse/interfaces";
-import { ensurePubsubTopicIsConfigured, Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { ensurePubsubTopicIsConfigured, Logger } from "@bpx-chain/synapse-utils";
 
 import { BaseProtocolSDK } from "./base_protocol.js";
 

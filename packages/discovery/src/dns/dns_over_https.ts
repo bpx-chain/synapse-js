@@ -1,6 +1,6 @@
-import type { DnsClient } from "@synapse/interfaces";
-import { Logger } from "@synapse/utils";
-import { bytesToUtf8 } from "@synapse/utils/bytes";
+import type { DnsClient } from "@bpx-chain/synapse-interfaces";
+import { Logger } from "@bpx-chain/synapse-utils";
+import { bytesToUtf8 } from "@bpx-chain/synapse-utils/bytes";
 import { Endpoint, query, wellknown } from "dns-query";
 
 const log = new Logger("dns-over-https");

@@ -4,13 +4,13 @@
 
 * The following workspace dependencies were updated
   * devDependencies
-    * @synapse/interfaces bumped from 0.0.14 to 0.0.15
+    * @bpx-chain/synapse-interfaces bumped from 0.0.14 to 0.0.15
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * devDependencies
-    * @synapse/interfaces bumped from 0.0.16 to 0.0.17
+    * @bpx-chain/synapse-interfaces bumped from 0.0.16 to 0.0.17
 
 ## [0.0.17](https://github.com/bpx-chain/synapse-js/compare/utils-v0.0.16...utils-v0.0.17) (2024-04-30)
 
@@ -34,14 +34,14 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/interfaces bumped from 0.0.23 to 0.0.24
+    * @bpx-chain/synapse-interfaces bumped from 0.0.23 to 0.0.24
 
 ## [0.0.16](https://github.com/bpx-chain/synapse-js/compare/utils-v0.0.15...utils-v0.0.16) (2024-04-09)
 
 
 ### ⚠ BREAKING CHANGES
 
-* **lightpush:** move protocol implementation opinions to `@synapse/sdk` ([#1887](https://github.com/bpx-chain/synapse-js/issues/1887))
+* **lightpush:** move protocol implementation opinions to `@bpx-chain/synapse-sdk` ([#1887](https://github.com/bpx-chain/synapse-js/issues/1887))
 
 ### Features
 
@@ -51,14 +51,14 @@
 
 ### Miscellaneous Chores
 
-* **lightpush:** Move protocol implementation opinions to `@synapse/sdk` ([#1887](https://github.com/bpx-chain/synapse-js/issues/1887)) ([8deab11](https://github.com/bpx-chain/synapse-js/commit/8deab11890160b40a22e7d11926a2307afb93af4))
+* **lightpush:** Move protocol implementation opinions to `@bpx-chain/synapse-sdk` ([#1887](https://github.com/bpx-chain/synapse-js/issues/1887)) ([8deab11](https://github.com/bpx-chain/synapse-js/commit/8deab11890160b40a22e7d11926a2307afb93af4))
 
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/interfaces bumped from 0.0.22 to 0.0.23
+    * @bpx-chain/synapse-interfaces bumped from 0.0.22 to 0.0.23
 
 ## [0.0.15](https://github.com/bpx-chain/synapse-js/compare/utils-v0.0.14...utils-v0.0.15) (2024-03-04)
 
@@ -79,7 +79,7 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/interfaces bumped from 0.0.21 to 0.0.22
+    * @bpx-chain/synapse-interfaces bumped from 0.0.21 to 0.0.22
 
 ## [0.0.14](https://github.com/bpx-chain/synapse-js/compare/utils-v0.0.13...utils-v0.0.14) (2024-01-10)
 
@@ -106,7 +106,7 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/interfaces bumped from 0.0.20 to 0.0.21
+    * @bpx-chain/synapse-interfaces bumped from 0.0.20 to 0.0.21
 
 ## [0.0.13](https://github.com/bpx-chain/synapse-js/compare/utils-v0.0.12...utils-v0.0.13) (2023-11-01)
 
@@ -126,7 +126,7 @@
 
 * The following workspace dependencies were updated
   * devDependencies
-    * @synapse/interfaces bumped from 0.0.19 to 0.0.20
+    * @bpx-chain/synapse-interfaces bumped from 0.0.19 to 0.0.20
 
 ## [0.0.12](https://github.com/bpx-chain/synapse-js/compare/utils-v0.0.11...utils-v0.0.12) (2023-10-16)
 
@@ -145,7 +145,7 @@
 
 * The following workspace dependencies were updated
   * devDependencies
-    * @synapse/interfaces bumped from 0.0.18 to 0.0.19
+    * @bpx-chain/synapse-interfaces bumped from 0.0.18 to 0.0.19
 
 ## [0.0.11](https://github.com/bpx-chain/synapse-js/compare/utils-v0.0.10...utils-v0.0.11) (2023-09-11)
 
@@ -155,11 +155,11 @@
 * set peer-exchange with default bootstrap ([#1469](https://github.com/bpx-chain/synapse-js/issues/1469))
 * upgrade to libp2p@0.45 ([#1400](https://github.com/bpx-chain/synapse-js/issues/1400))
 * filter v2 ([#1332](https://github.com/bpx-chain/synapse-js/issues/1332))
-* @synapse/relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316))
+* @bpx-chain/synapse-relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316))
 
 ### Features
 
-* @synapse/relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316)) ([50c2c25](https://github.com/bpx-chain/synapse-js/commit/50c2c2540f3c5ff78d93f3fea646da0eee246e17))
+* @bpx-chain/synapse-relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316)) ([50c2c25](https://github.com/bpx-chain/synapse-js/commit/50c2c2540f3c5ff78d93f3fea646da0eee246e17))
 * Add 1MB restriction to LightPush and Relay ([#1351](https://github.com/bpx-chain/synapse-js/issues/1351)) ([72f97d4](https://github.com/bpx-chain/synapse-js/commit/72f97d4545512f92936b1a9b50fa0b53f8603f9d))
 * Filter v2 ([#1332](https://github.com/bpx-chain/synapse-js/issues/1332)) ([8d0e647](https://github.com/bpx-chain/synapse-js/commit/8d0e64796695fbafad0a033552eb4412bdff3d78))
 * Set peer-exchange with default bootstrap ([#1469](https://github.com/bpx-chain/synapse-js/issues/1469)) ([81a52a8](https://github.com/bpx-chain/synapse-js/commit/81a52a8097ba948783c9d798ba362af0f27e1c10))
@@ -177,7 +177,7 @@
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/interfaces bumped from ^0.0.17 to 0.0.18
+    * @bpx-chain/synapse-interfaces bumped from ^0.0.17 to 0.0.18
 
 ## [0.0.9](https://github.com/bpx-chain/synapse-js/compare/utils-v0.0.8...utils-v0.0.9) (2023-07-26)
 
@@ -195,7 +195,7 @@
 
 * The following workspace dependencies were updated
   * devDependencies
-    * @synapse/interfaces bumped from 0.0.15 to 0.0.16
+    * @bpx-chain/synapse-interfaces bumped from 0.0.15 to 0.0.16
 
 ## [0.0.7](https://github.com/bpx-chain/synapse-js/compare/utils-v0.0.6...utils-v0.0.7) (2023-05-26)
 
@@ -213,18 +213,18 @@
 
 * The following workspace dependencies were updated
   * devDependencies
-    * @synapse/interfaces bumped from 0.0.13 to 0.0.14
+    * @bpx-chain/synapse-interfaces bumped from 0.0.13 to 0.0.14
 
 ## [0.0.6](https://github.com/bpx-chain/synapse-js/compare/utils-v0.0.5...utils-v0.0.6) (2023-05-18)
 
 
 ### ⚠ BREAKING CHANGES
 
-* @synapse/relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316))
+* @bpx-chain/synapse-relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316))
 
 ### Features
 
-* @synapse/relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316)) ([50c2c25](https://github.com/bpx-chain/synapse-js/commit/50c2c2540f3c5ff78d93f3fea646da0eee246e17))
+* @bpx-chain/synapse-relay ([#1316](https://github.com/bpx-chain/synapse-js/issues/1316)) ([50c2c25](https://github.com/bpx-chain/synapse-js/commit/50c2c2540f3c5ff78d93f3fea646da0eee246e17))
 * Add 1MB restriction to LightPush and Relay ([#1351](https://github.com/bpx-chain/synapse-js/issues/1351)) ([72f97d4](https://github.com/bpx-chain/synapse-js/commit/72f97d4545512f92936b1a9b50fa0b53f8603f9d))
 
 
@@ -232,7 +232,7 @@
 
 * The following workspace dependencies were updated
   * devDependencies
-    * @synapse/interfaces bumped from * to 0.0.13
+    * @bpx-chain/synapse-interfaces bumped from * to 0.0.13
 
 ## [0.0.5](https://github.com/bpx-chain/synapse-js/compare/utils-v0.0.4...utils-v0.0.5) (2023-05-09)
 
@@ -246,7 +246,7 @@
 
 * The following workspace dependencies were updated
   * devDependencies
-    * @synapse/interfaces bumped from * to 0.0.12
+    * @bpx-chain/synapse-interfaces bumped from * to 0.0.12
 
 ## [0.0.4](https://github.com/bpx-chain/synapse-js/compare/utils-v0.0.3...utils-v0.0.4) (2023-04-03)
 
@@ -267,7 +267,7 @@
 
 ### ⚠ BREAKING CHANGES
 
-* add exports map to @synapse/utils ([#1201](https://github.com/bpx-chain/synapse-js/issues/1201))
+* add exports map to @bpx-chain/synapse-utils ([#1201](https://github.com/bpx-chain/synapse-js/issues/1201))
 * directly convert from ENR to `PeerInfo`, remove unneeded utility
 * bump typescript
 * bump libp2p dependencies
@@ -279,7 +279,7 @@
 
 ### Miscellaneous Chores
 
-* Add exports map to @synapse/utils ([#1201](https://github.com/bpx-chain/synapse-js/issues/1201)) ([a30b2bd](https://github.com/bpx-chain/synapse-js/commit/a30b2bd747dedeef69b46cfafb88898ba35d8f67))
+* Add exports map to @bpx-chain/synapse-utils ([#1201](https://github.com/bpx-chain/synapse-js/issues/1201)) ([a30b2bd](https://github.com/bpx-chain/synapse-js/commit/a30b2bd747dedeef69b46cfafb88898ba35d8f67))
 * Bump libp2p dependencies ([803ae7b](https://github.com/bpx-chain/synapse-js/commit/803ae7bd8ed3de665026446c23cde90e7eba9d36))
 * Bump typescript ([12d86e6](https://github.com/bpx-chain/synapse-js/commit/12d86e6abcc68e27c39ca86b4f0dc2b68cdd6000))
 * Directly convert from ENR to `PeerInfo`, remove unneeded utility ([6dbcde0](https://github.com/bpx-chain/synapse-js/commit/6dbcde041ab8fa8c2df75cc25319a0eccf6b0454))

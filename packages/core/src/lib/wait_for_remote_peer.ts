@@ -4,9 +4,9 @@ import type {
   IMetadata,
   IRelay,
   Waku
-} from "@synapse/interfaces";
-import { Protocols } from "@synapse/interfaces";
-import { Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { Protocols } from "@bpx-chain/synapse-interfaces";
+import { Logger } from "@bpx-chain/synapse-utils";
 import { pEvent } from "p-event";
 const log = new Logger("wait-for-remote-peer");
 
@@ -14,8 +14,8 @@ const log = new Logger("wait-for-remote-peer");
 /**
  * Wait for a remote peer to be ready given the passed protocols.
  * Must be used after attempting to connect to nodes, using
- * {@link @synapse/sdk!WakuNode.dial} or a bootstrap method with
- * {@link @synapse/sdk!createLightNode}.
+ * {@link @bpx-chain/synapse-sdk!WakuNode.dial} or a bootstrap method with
+ * {@link @bpx-chain/synapse-sdk!createLightNode}.
  *
  * If the passed protocols is a GossipSub protocol, then it resolves only once
  * a peer is in a mesh, to help ensure that other peers will send and receive

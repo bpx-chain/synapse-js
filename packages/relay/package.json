@@ -1,5 +1,5 @@
 {
-  "name": "@synapse/relay",
+  "name": "@bpx-chain/synapse-relay",
   "version": "0.0.12",
   "description": "Relay Protocol for Waku",
   "types": "./dist/index.d.ts",
@@ -51,30 +51,30 @@
   "dependencies": {
     "@chainsafe/libp2p-gossipsub": "^12.0.0",
     "@noble/hashes": "^1.3.2",
-    "@synapse/core": "0.0.29",
-    "@synapse/interfaces": "0.0.24",
-    "@synapse/proto": "0.0.7",
-    "@synapse/utils": "0.0.17",
+    "@bpx-chain/synapse-core": "0.0.29",
+    "@bpx-chain/synapse-interfaces": "0.0.24",
+    "@bpx-chain/synapse-proto": "0.0.7",
+    "@bpx-chain/synapse-utils": "0.0.17",
     "chai": "^4.3.10",
     "debug": "^4.3.4",
     "fast-check": "^3.15.1"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
-    "@synapse/build-utils": "*",
+    "@bpx-chain/synapse-build-utils": "*",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "rollup": "^4.12.0"
   },
   "peerDependencies": {
-    "@synapse/core": "0.0.27",
-    "@synapse/interfaces": "0.0.22",
-    "@synapse/proto": "0.0.6",
-    "@synapse/utils": "0.0.15",
+    "@bpx-chain/synapse-core": "0.0.27",
+    "@bpx-chain/synapse-interfaces": "0.0.22",
+    "@bpx-chain/synapse-proto": "0.0.6",
+    "@bpx-chain/synapse-utils": "0.0.15",
     "@chainsafe/libp2p-gossipsub": "^12.0.0"
   },
   "peerDependenciesMeta": {
-    "@synapse/interfaces": {
+    "@bpx-chain/synapse-interfaces": {
       "optional": true
     },
     "@chainsafe/libp2p-gossipsub": {

@@ -1,7 +1,7 @@
 import type { Message, PeerId } from "@libp2p/interface";
 import { TopicValidatorResult } from "@libp2p/interface";
-import { proto_message as proto } from "@synapse/proto";
-import { Logger } from "@synapse/utils";
+import { proto_message as proto } from "@bpx-chain/synapse-proto";
+import { Logger } from "@bpx-chain/synapse-utils";
 
 const log = new Logger("relay");
 

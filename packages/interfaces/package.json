@@ -1,5 +1,5 @@
 {
-  "name": "@synapse/interfaces",
+  "name": "@bpx-chain/synapse-interfaces",
   "version": "0.0.24",
   "description": "Definition of Waku interfaces",
   "types": "./dist/index.d.ts",
@@ -64,6 +64,6 @@
     "README.md"
   ],
   "dependencies": {
-    "@synapse/proto": "^0.0.7"
+    "@bpx-chain/synapse-proto": "^0.0.7"
   }
 }

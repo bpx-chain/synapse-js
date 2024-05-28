@@ -1,6 +1,6 @@
 import * as secp from "@noble/secp256k1";
-import type { NodeId } from "@synapse/interfaces";
-import { bytesToHex } from "@synapse/utils/bytes";
+import type { NodeId } from "@bpx-chain/synapse-interfaces";
+import { bytesToHex } from "@bpx-chain/synapse-utils/bytes";
 
 import { keccak256 } from "./crypto.js";
 export async function sign(

@@ -8,10 +8,10 @@ import {
   type ProtocolCreateOptions,
   ProtocolError,
   type ThisOrThat
-} from "@synapse/interfaces";
-import { PushResponse } from "@synapse/proto";
-import { isMessageSizeUnderCap } from "@synapse/utils";
-import { Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { PushResponse } from "@bpx-chain/synapse-proto";
+import { isMessageSizeUnderCap } from "@bpx-chain/synapse-utils";
+import { Logger } from "@bpx-chain/synapse-utils";
 import all from "it-all";
 import * as lp from "it-length-prefixed";
 import { pipe } from "it-pipe";

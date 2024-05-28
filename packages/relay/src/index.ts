@@ -23,10 +23,10 @@ import {
   ProtocolError,
   PubsubTopic,
   SDKProtocolResult
-} from "@synapse/interfaces";
-import { isWireSizeUnderCap, toAsyncIterator } from "@synapse/utils";
-import { pushOrInitMapSet } from "@synapse/utils";
-import { Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { isWireSizeUnderCap, toAsyncIterator } from "@bpx-chain/synapse-utils";
+import { pushOrInitMapSet } from "@bpx-chain/synapse-utils";
+import { Logger } from "@bpx-chain/synapse-utils";
 
 import { RelayCodecs } from "./constants.js";
 import { messageValidator } from "./message_validator.js";

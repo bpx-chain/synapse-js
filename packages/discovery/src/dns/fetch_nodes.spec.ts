@@ -1,8 +1,8 @@
 import { createSecp256k1PeerId } from "@libp2p/peer-id-factory";
 import { multiaddr } from "@multiformats/multiaddr";
-import { ENR } from "@synapse/enr";
-import { EnrCreator } from "@synapse/enr";
-import type { Waku2 } from "@synapse/interfaces";
+import { ENR } from "@bpx-chain/synapse-enr";
+import { EnrCreator } from "@bpx-chain/synapse-enr";
+import type { Waku2 } from "@bpx-chain/synapse-interfaces";
 import { expect } from "chai";
 
 import { fetchNodesUntilCapabilitiesFulfilled } from "./fetch_nodes.js";

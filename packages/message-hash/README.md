@@ -1,9 +1,9 @@
-[![NPM](https://nodei.co/npm/@synapse/message-hash.png)](https://npmjs.org/package/@synapse/message-hash)
+[![NPM](https://nodei.co/npm/@bpx-chain/synapse-message-hash.png)](https://npmjs.org/package/@bpx-chain/synapse-message-hash)
 
 ![GitHub Action](https://img.shields.io/github/workflow/status/bpx-chain/synapse-js/CI)
 [![Discord chat](https://img.shields.io/discord/864066763682218004.svg?logo=discord&colorB=7289DA)](https://discord.gg/Nrac59MfSX)
 
-# @synapse/message-hash
+# @bpx-chain/synapse-message-hash
 
 TypeScript implementation of the _Deterministic Message Hashing_ as specified in [14/WAKU2-MESSAGE](https://rfc.vac.dev/spec/14/).
 

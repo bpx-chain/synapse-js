@@ -1,4 +1,4 @@
-import { getPseudoRandomSubset } from "@synapse/utils";
+import { getPseudoRandomSubset } from "@bpx-chain/synapse-utils";
 import { expect } from "chai";
 
 describe("Discovery", () => {

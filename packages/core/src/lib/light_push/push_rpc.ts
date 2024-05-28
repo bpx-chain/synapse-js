@@ -1,4 +1,4 @@
-import { proto_lightpush as proto } from "@synapse/proto";
+import { proto_lightpush as proto } from "@bpx-chain/synapse-proto";
 import type { Uint8ArrayList } from "uint8arraylist";
 import { v4 as uuid } from "uuid";
 

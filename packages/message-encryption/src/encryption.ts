@@ -1,5 +1,5 @@
 import * as secp from "@noble/secp256k1";
-import { concat, hexToBytes } from "@synapse/utils/bytes";
+import { concat, hexToBytes } from "@bpx-chain/synapse-utils/bytes";
 
 import {
   ecies,

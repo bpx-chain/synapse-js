@@ -52,7 +52,7 @@ export type ProtocolCreateOptions = {
    * The format to specify a shard is:
    * clusterId: number, shards: number[]
    * To learn more about the sharding specifications implemented, see [Relay Sharding](https://rfc.vac.dev/spec/51/).
-   * The Pubsub Topic to use. Defaults to {@link @synapse/core!DefaultPubsubTopic }.
+   * The Pubsub Topic to use. Defaults to {@link @bpx-chain/synapse-core!DefaultPubsubTopic }.
    *
    * If no pubsub topic is specified, the default pubsub topic is used.
    * The set of pubsub topics that are used to initialize the Waku node, will need to be used by the protocols as well
@@ -72,11 +72,11 @@ export type ProtocolCreateOptions = {
    */
   contentTopics?: string[];
   /**
-   * You can pass options to the `Libp2p` instance used by {@link @synapse/sdk!WakuNode} using the `libp2p` property.
+   * You can pass options to the `Libp2p` instance used by {@link @bpx-chain/synapse-sdk!WakuNode} using the `libp2p` property.
    * This property is the same type as the one passed to [`Libp2p.create`](https://github.com/libp2p/js-libp2p/blob/master/doc/API.md#create)
    * apart that we made the `modules` property optional and partial,
    * allowing its omission and letting Waku set good defaults.
-   * Notes that some values are overridden by {@link @synapse/sdk!WakuNode} to ensure it implements the Waku protocol.
+   * Notes that some values are overridden by {@link @bpx-chain/synapse-sdk!WakuNode} to ensure it implements the Waku protocol.
    */
   libp2p?: Partial<CreateLibp2pOptions>;
   /**

@@ -1,7 +1,7 @@
 import * as RLP from "@ethersproject/rlp";
-import type { ENRKey, ENRValue } from "@synapse/interfaces";
-import { Logger } from "@synapse/utils";
-import { bytesToHex, bytesToUtf8, hexToBytes } from "@synapse/utils/bytes";
+import type { ENRKey, ENRValue } from "@bpx-chain/synapse-interfaces";
+import { Logger } from "@bpx-chain/synapse-utils";
+import { bytesToHex, bytesToUtf8, hexToBytes } from "@bpx-chain/synapse-utils/bytes";
 import { fromString } from "uint8arrays/from-string";
 
 import { ENR } from "./enr.js";

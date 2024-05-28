@@ -13,8 +13,8 @@ import {
   type Libp2pComponents,
   type LocalStoragePeerInfo,
   Tags
-} from "@synapse/interfaces";
-import { getWsMultiaddrFromMultiaddrs, Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { getWsMultiaddrFromMultiaddrs, Logger } from "@bpx-chain/synapse-utils";
 
 const log = new Logger("peer-exchange-discovery");
 
@@ -45,7 +45,7 @@ export class LocalPeerCacheDiscovery
   }
 
   get [Symbol.toStringTag](): string {
-    return "@synapse/local-peer-cache-discovery";
+    return "@bpx-chain/synapse-local-peer-cache-discovery";
   }
 
   async start(): Promise<void> {

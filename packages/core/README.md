@@ -1,8 +1,8 @@
-[![NPM](https://nodei.co/npm/@synapse/core.png)](https://npmjs.org/package/@synapse/core)
+[![NPM](https://nodei.co/npm/@bpx-chain/synapse-core.png)](https://npmjs.org/package/@bpx-chain/synapse-core)
 
 [![Discord chat](https://img.shields.io/discord/864066763682218004.svg?logo=discord&colorB=7289DA)](https://discord.gg/Nrac59MfSX)
 
-# @synapse/core
+# @bpx-chain/synapse-core
 
 Core components of js-waku, a TypeScript implementation of the [Waku v2 protocol](https://rfc.vac.dev/spec/10/).
 

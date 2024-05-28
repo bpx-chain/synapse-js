@@ -1,5 +1,5 @@
 {
-  "name": "@synapse/root",
+  "name": "@bpx-chain/synapse-root",
   "private": true,
   "type": "module",
   "workspaces": [

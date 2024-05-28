@@ -1,5 +1,5 @@
 import { sha256 } from "@noble/hashes/sha256";
-import { StoreCore, waku_store } from "@synapse/core";
+import { StoreCore, waku_store } from "@bpx-chain/synapse-core";
 import {
   Cursor,
   IDecodedMessage,
@@ -8,9 +8,9 @@ import {
   type Libp2p,
   PageDirection,
   type ProtocolCreateOptions
-} from "@synapse/interfaces";
-import { ensurePubsubTopicIsConfigured, isDefined, Logger } from "@synapse/utils";
-import { concat } from "@synapse/utils/bytes";
+} from "@bpx-chain/synapse-interfaces";
+import { ensurePubsubTopicIsConfigured, isDefined, Logger } from "@bpx-chain/synapse-utils";
+import { concat } from "@bpx-chain/synapse-utils/bytes";
 
 import { utf8ToBytes } from "../index.js";
 

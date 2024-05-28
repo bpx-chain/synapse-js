@@ -12,10 +12,10 @@ import {
   PeersByDiscoveryResult,
   PubsubTopic,
   ShardInfo
-} from "@synapse/interfaces";
-import { Libp2p, Tags } from "@synapse/interfaces";
-import { decodeRelayShard, shardInfoToPubsubTopics } from "@synapse/utils";
-import { Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { Libp2p, Tags } from "@bpx-chain/synapse-interfaces";
+import { decodeRelayShard, shardInfoToPubsubTopics } from "@bpx-chain/synapse-utils";
+import { Logger } from "@bpx-chain/synapse-utils";
 
 import { KeepAliveManager } from "./keep_alive_manager.js";
 

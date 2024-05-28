@@ -1,4 +1,4 @@
-import type { NodeCapabilityCount } from "@synapse/interfaces";
+import type { NodeCapabilityCount } from "@bpx-chain/synapse-interfaces";
 
 export const enrTree = {
   TEST: "enrtree://AOGYWMBYOUIMOENHXCHILPKY3ZRFEULMFI4DOM442QSZ73TT2A7VI@test.waku.nodes.status.im",

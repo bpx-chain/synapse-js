@@ -1,12 +1,12 @@
 import { sha256 } from "@noble/hashes/sha256";
-import type { IDecodedMessage, IProtoMessage } from "@synapse/interfaces";
-import { isDefined } from "@synapse/utils";
+import type { IDecodedMessage, IProtoMessage } from "@bpx-chain/synapse-interfaces";
+import { isDefined } from "@bpx-chain/synapse-utils";
 import {
   bytesToUtf8,
   concat,
   numberToBytes,
   utf8ToBytes
-} from "@synapse/utils/bytes";
+} from "@bpx-chain/synapse-utils/bytes";
 
 /**
  * Deterministic Message Hashing as defined in

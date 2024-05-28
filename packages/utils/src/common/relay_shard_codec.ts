@@ -1,4 +1,4 @@
-import type { ShardInfo } from "@synapse/interfaces";
+import type { ShardInfo } from "@bpx-chain/synapse-interfaces";
 
 export const decodeRelayShard = (bytes: Uint8Array): ShardInfo => {
   // explicitly converting to Uint8Array to avoid Buffer

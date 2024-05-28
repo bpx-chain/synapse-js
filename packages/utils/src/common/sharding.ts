@@ -5,7 +5,7 @@ import {
   ShardInfo,
   ShardingParams,
   SingleShardInfo
-} from "@synapse/interfaces";
+} from "@bpx-chain/synapse-interfaces";
 
 import { concat, utf8ToBytes } from "../bytes/index.js";
 

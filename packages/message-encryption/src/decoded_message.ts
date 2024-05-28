@@ -1,8 +1,8 @@
 import {
   DecodedMessage as DecodedMessageV0,
   proto
-} from "@synapse/core/lib/message/version_0";
-import type { IDecodedMessage } from "@synapse/interfaces";
+} from "@bpx-chain/synapse-core/lib/message/version_0";
+import type { IDecodedMessage } from "@bpx-chain/synapse-interfaces";
 import { equals } from "uint8arrays/equals";
 
 export class DecodedMessage

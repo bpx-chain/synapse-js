@@ -7,8 +7,8 @@ import type {
   NodeId,
   SequenceNumber,
   ShardInfo
-} from "@synapse/interfaces";
-import { Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { Logger } from "@bpx-chain/synapse-utils";
 
 import { ERR_INVALID_ID } from "./constants.js";
 import { keccak256, verifySignature } from "./crypto.js";

@@ -1,10 +1,10 @@
-import { DefaultPubsubTopic } from "@synapse/interfaces";
+import { DefaultPubsubTopic } from "@bpx-chain/synapse-interfaces";
 import type {
   IDecodedMessage,
   IDecoder,
   IProtoMessage
-} from "@synapse/interfaces";
-import { TopicOnlyMessage as ProtoTopicOnlyMessage } from "@synapse/proto";
+} from "@bpx-chain/synapse-interfaces";
+import { TopicOnlyMessage as ProtoTopicOnlyMessage } from "@bpx-chain/synapse-proto";
 
 export class TopicOnlyMessage implements IDecodedMessage {
   public payload: Uint8Array = new Uint8Array();

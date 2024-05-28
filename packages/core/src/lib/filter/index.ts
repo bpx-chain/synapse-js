@@ -8,9 +8,9 @@ import {
   type ProtocolCreateOptions,
   ProtocolError,
   type PubsubTopic
-} from "@synapse/interfaces";
-import { WakuMessage } from "@synapse/proto";
-import { Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { WakuMessage } from "@bpx-chain/synapse-proto";
+import { Logger } from "@bpx-chain/synapse-utils";
 import all from "it-all";
 import * as lp from "it-length-prefixed";
 import { pipe } from "it-pipe";

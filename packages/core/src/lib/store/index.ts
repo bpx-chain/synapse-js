@@ -6,9 +6,9 @@ import {
   IStoreCore,
   Libp2p,
   ProtocolCreateOptions
-} from "@synapse/interfaces";
-import { proto_store as proto } from "@synapse/proto";
-import { Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { proto_store as proto } from "@bpx-chain/synapse-proto";
+import { Logger } from "@bpx-chain/synapse-utils";
 import all from "it-all";
 import * as lp from "it-length-prefixed";
 import { pipe } from "it-pipe";

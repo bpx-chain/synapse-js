@@ -1,4 +1,4 @@
-import { type Libp2pComponents, type LightNode } from "@synapse/interfaces";
+import { type Libp2pComponents, type LightNode } from "@bpx-chain/synapse-interfaces";
 
 import { wakuFilter } from "../protocols/filter.js";
 import { wakuLightPush } from "../protocols/light_push.js";

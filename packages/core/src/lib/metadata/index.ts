@@ -7,9 +7,9 @@ import {
   type PeerIdStr,
   ProtocolError,
   type ShardInfo
-} from "@synapse/interfaces";
-import { proto_metadata } from "@synapse/proto";
-import { encodeRelayShard, Logger, shardInfoToPubsubTopics } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { proto_metadata } from "@bpx-chain/synapse-proto";
+import { encodeRelayShard, Logger, shardInfoToPubsubTopics } from "@bpx-chain/synapse-utils";
 import all from "it-all";
 import * as lp from "it-length-prefixed";
 import { pipe } from "it-pipe";

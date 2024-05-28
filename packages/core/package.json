@@ -1,5 +1,5 @@
 {
-  "name": "@synapse/core",
+  "name": "@bpx-chain/synapse-core",
   "version": "0.0.29",
   "description": "TypeScript implementation of the Waku v2 protocol",
   "types": "./dist/index.d.ts",
@@ -73,10 +73,10 @@
   },
   "dependencies": {
     "@libp2p/ping": "^1.0.12",
-    "@synapse/enr": "^0.0.23",
-    "@synapse/interfaces": "0.0.24",
-    "@synapse/proto": "0.0.7",
-    "@synapse/utils": "0.0.17",
+    "@bpx-chain/synapse-enr": "^0.0.23",
+    "@bpx-chain/synapse-interfaces": "0.0.24",
+    "@bpx-chain/synapse-proto": "0.0.7",
+    "@bpx-chain/synapse-utils": "0.0.17",
     "debug": "^4.3.4",
     "it-all": "^3.0.4",
     "it-length-prefixed": "^9.0.4",
@@ -94,7 +94,7 @@
     "@types/debug": "^4.1.12",
     "@types/mocha": "^10.0.6",
     "@types/uuid": "^9.0.8",
-    "@synapse/build-utils": "*",
+    "@bpx-chain/synapse-build-utils": "*",
     "chai": "^4.3.10",
     "cspell": "^8.6.1",
     "fast-check": "^3.15.1",
@@ -108,16 +108,16 @@
   "peerDependencies": {
     "@multiformats/multiaddr": "^12.0.0",
     "libp2p": "^1.1.2",
-    "@synapse/enr": "^0.0.21",
-    "@synapse/interfaces": "0.0.22",
-    "@synapse/proto": "0.0.6",
-    "@synapse/utils": "0.0.15"
+    "@bpx-chain/synapse-enr": "^0.0.21",
+    "@bpx-chain/synapse-interfaces": "0.0.22",
+    "@bpx-chain/synapse-proto": "0.0.6",
+    "@bpx-chain/synapse-utils": "0.0.15"
   },
   "peerDependenciesMeta": {
     "@multiformats/multiaddr": {
       "optional": true
     },
-    "@synapse/interfaces": {
+    "@bpx-chain/synapse-interfaces": {
       "optional": true
     }
   },

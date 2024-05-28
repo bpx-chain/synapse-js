@@ -1,5 +1,5 @@
 {
-  "name": "@synapse/enr",
+  "name": "@bpx-chain/synapse-enr",
   "version": "0.0.23",
   "description": "ENR (EIP-778) for Waku",
   "types": "./dist/index.d.ts",
@@ -56,7 +56,7 @@
     "@libp2p/peer-id": "^4.0.4",
     "@multiformats/multiaddr": "^12.0.0",
     "@noble/secp256k1": "^1.7.1",
-    "@synapse/utils": "0.0.17",
+    "@bpx-chain/synapse-utils": "0.0.17",
     "debug": "^4.3.4",
     "js-sha3": "^0.9.2"
   },
@@ -67,8 +67,8 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@types/chai": "^4.3.11",
     "@types/mocha": "^10.0.6",
-    "@synapse/build-utils": "*",
-    "@synapse/interfaces": "0.0.24",
+    "@bpx-chain/synapse-build-utils": "*",
+    "@bpx-chain/synapse-interfaces": "0.0.24",
     "chai": "^4.3.10",
     "cspell": "^8.6.1",
     "fast-check": "^3.15.1",
@@ -79,12 +79,12 @@
     "uint8arrays": "^5.0.1"
   },
   "peerDependencies": {
-    "@synapse/utils": "0.0.15",
-    "@synapse/interfaces": "0.0.22",
+    "@bpx-chain/synapse-utils": "0.0.15",
+    "@bpx-chain/synapse-interfaces": "0.0.22",
     "@multiformats/multiaddr": "^12.0.0"
   },
   "peerDependenciesMeta": {
-    "@synapse/interfaces": {
+    "@bpx-chain/synapse-interfaces": {
       "optional": true
     },
     "@multiformats/multiaddr": {

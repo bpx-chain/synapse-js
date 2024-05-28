@@ -4,7 +4,7 @@ import type {
   IDecoder,
   IReceiver,
   Unsubscribe
-} from "@synapse/interfaces";
+} from "@bpx-chain/synapse-interfaces";
 
 /**
  * Options for configuring the behavior of an iterator.

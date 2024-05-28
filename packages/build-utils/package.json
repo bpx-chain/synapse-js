@@ -1,5 +1,5 @@
 {
-  "name": "@synapse/build-utils",
+  "name": "@bpx-chain/synapse-build-utils",
   "version": "1.0.0",
   "description": "Build utilities for js-waku",
   "main": "index.js",

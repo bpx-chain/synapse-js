@@ -1,6 +1,6 @@
 import * as RLP from "@ethersproject/rlp";
-import type { ENRKey, ENRValue } from "@synapse/interfaces";
-import { hexToBytes, utf8ToBytes } from "@synapse/utils/bytes";
+import type { ENRKey, ENRValue } from "@bpx-chain/synapse-interfaces";
+import { hexToBytes, utf8ToBytes } from "@bpx-chain/synapse-utils/bytes";
 import { toString } from "uint8arrays/to-string";
 
 import { ERR_NO_SIGNATURE, MAX_RECORD_SIZE } from "./constants.js";

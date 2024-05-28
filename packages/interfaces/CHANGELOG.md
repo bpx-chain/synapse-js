@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ⚠ BREAKING CHANGES
 
 * use ShardingParams on subscriptions, make Decoder/Encoder auto sharding friendly by default ([#1958](https://github.com/bpx-chain/synapse-js/issues/1958))
-* **lightpush:** move protocol implementation to `@synapse/sdk` (1/n) ([#1964](https://github.com/bpx-chain/synapse-js/issues/1964))
+* **lightpush:** move protocol implementation to `@bpx-chain/synapse-sdk` (1/n) ([#1964](https://github.com/bpx-chain/synapse-js/issues/1964))
 
 ### Features
 
@@ -28,22 +28,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Miscellaneous Chores
 
-* **lightpush:** Move protocol implementation to `@synapse/sdk` (1/n) ([#1964](https://github.com/bpx-chain/synapse-js/issues/1964)) ([5fb1006](https://github.com/bpx-chain/synapse-js/commit/5fb100602b347ad13718c85c52d22a932c15aa18))
+* **lightpush:** Move protocol implementation to `@bpx-chain/synapse-sdk` (1/n) ([#1964](https://github.com/bpx-chain/synapse-js/issues/1964)) ([5fb1006](https://github.com/bpx-chain/synapse-js/commit/5fb100602b347ad13718c85c52d22a932c15aa18))
 
 
 ### Dependencies
 
 * The following workspace dependencies were updated
   * dependencies
-    * @synapse/proto bumped from ^0.0.6 to ^0.0.7
+    * @bpx-chain/synapse-proto bumped from ^0.0.6 to ^0.0.7
 
 ## [0.0.23](https://github.com/bpx-chain/synapse-js/compare/interfaces-v0.0.22...interfaces-v0.0.23) (2024-04-09)
 
 
 ### ⚠ BREAKING CHANGES
 
-* **store:** move protocol implementation opinions to `@synapse/sdk` ([#1913](https://github.com/bpx-chain/synapse-js/issues/1913))
-* **lightpush:** move protocol implementation opinions to `@synapse/sdk` ([#1887](https://github.com/bpx-chain/synapse-js/issues/1887))
+* **store:** move protocol implementation opinions to `@bpx-chain/synapse-sdk` ([#1913](https://github.com/bpx-chain/synapse-js/issues/1913))
+* **lightpush:** move protocol implementation opinions to `@bpx-chain/synapse-sdk` ([#1887](https://github.com/bpx-chain/synapse-js/issues/1887))
 
 ### Features
 
@@ -53,8 +53,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Miscellaneous Chores
 
-* **lightpush:** Move protocol implementation opinions to `@synapse/sdk` ([#1887](https://github.com/bpx-chain/synapse-js/issues/1887)) ([8deab11](https://github.com/bpx-chain/synapse-js/commit/8deab11890160b40a22e7d11926a2307afb93af4))
-* **store:** Move protocol implementation opinions to `@synapse/sdk` ([#1913](https://github.com/bpx-chain/synapse-js/issues/1913)) ([bf42c8f](https://github.com/bpx-chain/synapse-js/commit/bf42c8f53a291172d6af64cbf72c4092146899df))
+* **lightpush:** Move protocol implementation opinions to `@bpx-chain/synapse-sdk` ([#1887](https://github.com/bpx-chain/synapse-js/issues/1887)) ([8deab11](https://github.com/bpx-chain/synapse-js/commit/8deab11890160b40a22e7d11926a2307afb93af4))
+* **store:** Move protocol implementation opinions to `@bpx-chain/synapse-sdk` ([#1913](https://github.com/bpx-chain/synapse-js/issues/1913)) ([bf42c8f](https://github.com/bpx-chain/synapse-js/commit/bf42c8f53a291172d6af64cbf72c4092146899df))
 
 ## [0.0.22](https://github.com/bpx-chain/synapse-js/compare/interfaces-v0.0.21...interfaces-v0.0.22) (2024-03-04)
 
@@ -310,13 +310,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Alpha version of `@synapse/interfaces`.
+- Alpha version of `@bpx-chain/synapse-interfaces`.
 
-[unreleased]: https://github.com/bpx-chain/synapse-js/compare/@synapse/interfaces@0.0.7...HEAD
-[0.0.7]: https://github.com/bpx-chain/synapse-js/compare/@synapse/interfaces@0.0.6...@synapse/interfaces@0.0.7
-[0.0.6]: https://github.com/bpx-chain/synapse-js/compare/@synapse/interfaces@0.0.5...@synapse/interfaces@0.0.6
-[0.0.5]: https://github.com/bpx-chain/synapse-js/compare/@synapse/interfaces@0.0.4...@synapse/interfaces@0.0.5
-[0.0.4]: https://github.com/bpx-chain/synapse-js/compare/@synapse/interfaces@0.0.3...@synapse/interfaces@0.0.4
-[0.0.3]: https://github.com/bpx-chain/synapse-js/compare/@synapse/interfaces@0.0.2...%40waku/create@0.0.3
-[0.0.2]: https://github.com/bpx-chain/synapse-js/compare/@synapse/interfaces@0.0.1...%40waku/create@0.0.2
+[unreleased]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-interfaces@0.0.7...HEAD
+[0.0.7]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-interfaces@0.0.6...@bpx-chain/synapse-interfaces@0.0.7
+[0.0.6]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-interfaces@0.0.5...@bpx-chain/synapse-interfaces@0.0.6
+[0.0.5]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-interfaces@0.0.4...@bpx-chain/synapse-interfaces@0.0.5
+[0.0.4]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-interfaces@0.0.3...@bpx-chain/synapse-interfaces@0.0.4
+[0.0.3]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-interfaces@0.0.2...%40waku/create@0.0.3
+[0.0.2]: https://github.com/bpx-chain/synapse-js/compare/@bpx-chain/synapse-interfaces@0.0.1...%40waku/create@0.0.2
 [0.0.1]: https://github.com/status-im/js-waku/compare/a20b7809d61ff9a9732aba82b99bbe99f229b935...%40waku/create%400.0.2

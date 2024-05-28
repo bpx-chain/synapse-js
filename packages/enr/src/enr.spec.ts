@@ -2,8 +2,8 @@ import type { PeerId } from "@libp2p/interface";
 import { createSecp256k1PeerId } from "@libp2p/peer-id-factory";
 import { multiaddr } from "@multiformats/multiaddr";
 import * as secp from "@noble/secp256k1";
-import type { Waku2 } from "@synapse/interfaces";
-import { bytesToHex, hexToBytes, utf8ToBytes } from "@synapse/utils/bytes";
+import type { Waku2 } from "@bpx-chain/synapse-interfaces";
+import { bytesToHex, hexToBytes, utf8ToBytes } from "@bpx-chain/synapse-utils/bytes";
 import { assert, expect } from "chai";
 import { equals } from "uint8arrays/equals";
 

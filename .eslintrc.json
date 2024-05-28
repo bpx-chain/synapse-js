@@ -21,7 +21,7 @@
       {
         "paths": [{
           "name": "debug",
-          "message": "The usage of 'debug' package directly is disallowed. Please use the custom logger from @synapse/utils instead."
+          "message": "The usage of 'debug' package directly is disallowed. Please use the custom logger from @bpx-chain/synapse-utils instead."
         }]
       }
     ],

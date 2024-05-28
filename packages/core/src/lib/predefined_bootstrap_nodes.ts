@@ -1,4 +1,4 @@
-import { getPseudoRandomSubset } from "@synapse/utils";
+import { getPseudoRandomSubset } from "@bpx-chain/synapse-utils";
 
 export const DefaultWantedNumber = 1;
 

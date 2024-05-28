@@ -1,11 +1,11 @@
-import { ENR, EnrDecoder } from "@synapse/enr";
+import { ENR, EnrDecoder } from "@bpx-chain/synapse-enr";
 import type {
   DnsClient,
   IEnr,
   NodeCapabilityCount,
   SearchContext
-} from "@synapse/interfaces";
-import { Logger } from "@synapse/utils";
+} from "@bpx-chain/synapse-interfaces";
+import { Logger } from "@bpx-chain/synapse-utils";
 
 import { DnsOverHttps } from "./dns_over_https.js";
 import { ENRTree } from "./enrtree.js";
