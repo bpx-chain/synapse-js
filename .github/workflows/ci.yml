@@ -15,13 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:
-      - uses: google-github-actions/release-please-action@v3
-        id: release
-        with:
-          command: manifest
-          monorepo-tags: true
-          token: ${{ secrets.CI_TOKEN }}
-
       - uses: actions/checkout@v3
         with: 
           repository: bpx-chain/synapse-js
