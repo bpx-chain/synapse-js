@@ -49,7 +49,7 @@ jobs:
   maybe-release:
     name: release
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: [check, proto]
     steps:
       - uses: google-github-actions/release-please-action@v3
