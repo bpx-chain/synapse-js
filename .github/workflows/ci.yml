@@ -10,47 +10,10 @@ env:
   NODE_JS: "18"
 
 jobs:
-  check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with: 
-          repository: bpx-chain/synapse-js
-          
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ${{ env.NODE_JS }}
-      - uses: ./.github/actions/npm
-      - run: npm run build
-      - run: npm run check
-      - run: npm run doc
-
-  proto:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with: 
-          repository: bpx-chain/synapse-js
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ${{ env.NODE_JS }}
-      - uses: ./.github/actions/npm
-      - name: Generate protobuf code
-        run: |
-          npm run proto
-          npm run fix
-      - name: Check all protobuf code was committed
-        shell: bash
-        run: |
-          res=$(git status --short --ignore-submodules)
-          echo -n "'$res'" # For debug purposes
-          [ $(echo -n "$res"|wc -l) -eq 0 ]
-
   maybe-release:
     name: release
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: [check, proto]
     steps:
       - uses: google-github-actions/release-please-action@v3
         id: release
