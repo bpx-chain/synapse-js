@@ -1,6 +1,6 @@
 {
   "name": "@bpx-chain/synapse-core",
-  "version": "0.0.29",
+  "version": "1.0.0",
   "description": "TypeScript implementation of the Waku v2 protocol",
   "types": "./dist/index.d.ts",
   "module": "./dist/index.js",
@@ -73,10 +73,10 @@
   },
   "dependencies": {
     "@libp2p/ping": "^1.0.12",
-    "@bpx-chain/synapse-enr": "^0.0.23",
-    "@bpx-chain/synapse-interfaces": "0.0.24",
-    "@bpx-chain/synapse-proto": "0.0.7",
-    "@bpx-chain/synapse-utils": "0.0.17",
+    "@bpx-chain/synapse-enr": "*",
+    "@bpx-chain/synapse-interfaces": "*",
+    "@bpx-chain/synapse-proto": "*",
+    "@bpx-chain/synapse-utils": "*",
     "debug": "^4.3.4",
     "it-all": "^3.0.4",
     "it-length-prefixed": "^9.0.4",
@@ -108,10 +108,10 @@
   "peerDependencies": {
     "@multiformats/multiaddr": "^12.0.0",
     "libp2p": "^1.1.2",
-    "@bpx-chain/synapse-enr": "^0.0.21",
-    "@bpx-chain/synapse-interfaces": "0.0.22",
-    "@bpx-chain/synapse-proto": "0.0.6",
-    "@bpx-chain/synapse-utils": "0.0.15"
+    "@bpx-chain/synapse-enr": "*",
+    "@bpx-chain/synapse-interfaces": "*",
+    "@bpx-chain/synapse-proto": "*",
+    "@bpx-chain/synapse-utils": "*"
   },
   "peerDependenciesMeta": {
     "@multiformats/multiaddr": {
