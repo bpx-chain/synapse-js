@@ -1,4 +1,4 @@
-# `@waku/message-encryption`
+# `@synapse/message-encryption`
 
 Provide Waku Message Version 1 payload encryption as defined in [26/WAKU2-PAYLOAD](https://rfc.vac.dev/spec/26/).
 
@@ -11,7 +11,7 @@ import {
   createDecoder,
   createEncoder,
   generateSymmetricKey
-} from "@waku/message-encryption/symmetric";
+} from "@synapse/message-encryption/symmetric";
 
 // Generate a random key
 const key = generateSymmetricKey();
@@ -41,7 +41,7 @@ import {
   createEncoder,
   generatePrivateKey,
   getPublicKey
-} from "@waku/message-encryption/ecies";
+} from "@synapse/message-encryption/ecies";
 
 // Generate a random private key
 const privateKey = generatePrivateKey();

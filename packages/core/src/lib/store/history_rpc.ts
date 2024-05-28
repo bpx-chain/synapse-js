@@ -1,4 +1,4 @@
-import { proto_store as proto } from "@waku/proto";
+import { proto_store as proto } from "@synapse/proto";
 import type { Uint8ArrayList } from "uint8arraylist";
 import { v4 as uuid } from "uuid";
 

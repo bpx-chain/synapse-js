@@ -1,10 +1,10 @@
-import { DefaultPubsubTopic } from "@waku/interfaces";
+import { DefaultPubsubTopic } from "@synapse/interfaces";
 import type {
   IDecodedMessage,
   IDecoder,
   IProtoMessage
-} from "@waku/interfaces";
-import { TopicOnlyMessage as ProtoTopicOnlyMessage } from "@waku/proto";
+} from "@synapse/interfaces";
+import { TopicOnlyMessage as ProtoTopicOnlyMessage } from "@synapse/proto";
 
 export class TopicOnlyMessage implements IDecodedMessage {
   public payload: Uint8Array = new Uint8Array();

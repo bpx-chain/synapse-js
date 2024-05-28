@@ -1,5 +1,5 @@
-import type { IEnr, NodeCapabilityCount, Waku2 } from "@waku/interfaces";
-import { Logger } from "@waku/utils";
+import type { IEnr, NodeCapabilityCount, Waku2 } from "@synapse/interfaces";
+import { Logger } from "@synapse/utils";
 
 const log = new Logger("discovery:fetch_nodes");
 

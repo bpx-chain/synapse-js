@@ -1,5 +1,5 @@
 import { Peer } from "@libp2p/interface";
-import { Tags } from "@waku/interfaces";
+import { Tags } from "@synapse/interfaces";
 
 /**
  * Retrieves a list of peers based on the specified criteria:

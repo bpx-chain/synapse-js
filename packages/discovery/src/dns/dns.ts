@@ -1,11 +1,11 @@
-import { ENR, EnrDecoder } from "@waku/enr";
+import { ENR, EnrDecoder } from "@synapse/enr";
 import type {
   DnsClient,
   IEnr,
   NodeCapabilityCount,
   SearchContext
-} from "@waku/interfaces";
-import { Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { Logger } from "@synapse/utils";
 
 import { DnsOverHttps } from "./dns_over_https.js";
 import { ENRTree } from "./enrtree.js";

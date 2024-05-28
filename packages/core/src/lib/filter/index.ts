@@ -8,9 +8,9 @@ import {
   type ProtocolCreateOptions,
   ProtocolError,
   type PubsubTopic
-} from "@waku/interfaces";
-import { WakuMessage } from "@waku/proto";
-import { Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { WakuMessage } from "@synapse/proto";
+import { Logger } from "@synapse/utils";
 import all from "it-all";
 import * as lp from "it-length-prefixed";
 import { pipe } from "it-pipe";

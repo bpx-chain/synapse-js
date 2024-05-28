@@ -1,5 +1,5 @@
 import { Multiaddr } from "@multiformats/multiaddr";
-import type { IEnr } from "@waku/interfaces";
+import type { IEnr } from "@synapse/interfaces";
 
 import { multiaddrFromFields } from "./multiaddr_from_fields.js";
 

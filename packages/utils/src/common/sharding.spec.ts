@@ -1,4 +1,4 @@
-import { DEFAULT_CLUSTER_ID } from "@waku/interfaces";
+import { DEFAULT_CLUSTER_ID } from "@synapse/interfaces";
 import { expect } from "chai";
 
 import {

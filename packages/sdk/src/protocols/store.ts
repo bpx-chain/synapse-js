@@ -1,5 +1,5 @@
 import { sha256 } from "@noble/hashes/sha256";
-import { StoreCore, waku_store } from "@waku/core";
+import { StoreCore, waku_store } from "@synapse/core";
 import {
   Cursor,
   IDecodedMessage,
@@ -8,9 +8,9 @@ import {
   type Libp2p,
   PageDirection,
   type ProtocolCreateOptions
-} from "@waku/interfaces";
-import { ensurePubsubTopicIsConfigured, isDefined, Logger } from "@waku/utils";
-import { concat } from "@waku/utils/bytes";
+} from "@synapse/interfaces";
+import { ensurePubsubTopicIsConfigured, isDefined, Logger } from "@synapse/utils";
+import { concat } from "@synapse/utils/bytes";
 
 import { utf8ToBytes } from "../index.js";
 
@@ -26,7 +26,7 @@ export class StoreSDK extends BaseProtocolSDK implements IStoreSDK {
   public readonly protocol: StoreCore;
 
   constructor(libp2p: Libp2p, options?: ProtocolCreateOptions) {
-    // TODO: options.numPeersToUse is disregarded: https://github.com/waku-org/js-waku/issues/1685
+    // TODO: options.numPeersToUse is disregarded: https://github.com/bpx-chain/synapse-js/issues/1685
     super({ numPeersToUse: DEFAULT_NUM_PEERS });
 
     this.protocol = new StoreCore(libp2p, options);

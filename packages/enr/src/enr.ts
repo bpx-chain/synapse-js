@@ -7,8 +7,8 @@ import type {
   NodeId,
   SequenceNumber,
   ShardInfo
-} from "@waku/interfaces";
-import { Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { Logger } from "@synapse/utils";
 
 import { ERR_INVALID_ID } from "./constants.js";
 import { keccak256, verifySignature } from "./crypto.js";

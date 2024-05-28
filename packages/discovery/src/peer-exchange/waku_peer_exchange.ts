@@ -1,5 +1,5 @@
-import { BaseProtocol } from "@waku/core/lib/base_protocol";
-import { EnrDecoder } from "@waku/enr";
+import { BaseProtocol } from "@synapse/core/lib/base_protocol";
+import { EnrDecoder } from "@synapse/enr";
 import {
   IPeerExchange,
   Libp2pComponents,
@@ -7,9 +7,9 @@ import {
   PeerExchangeQueryResult,
   ProtocolError,
   PubsubTopic
-} from "@waku/interfaces";
-import { isDefined } from "@waku/utils";
-import { Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { isDefined } from "@synapse/utils";
+import { Logger } from "@synapse/utils";
 import all from "it-all";
 import * as lp from "it-length-prefixed";
 import { pipe } from "it-pipe";

@@ -1,4 +1,4 @@
-import type { DnsClient } from "@waku/interfaces";
+import type { DnsClient } from "@synapse/interfaces";
 import { expect } from "chai";
 
 import { DnsNodeDiscovery } from "./dns.js";

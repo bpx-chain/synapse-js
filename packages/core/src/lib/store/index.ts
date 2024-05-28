@@ -6,9 +6,9 @@ import {
   IStoreCore,
   Libp2p,
   ProtocolCreateOptions
-} from "@waku/interfaces";
-import { proto_store as proto } from "@waku/proto";
-import { Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { proto_store as proto } from "@synapse/proto";
+import { Logger } from "@synapse/utils";
 import all from "it-all";
 import * as lp from "it-length-prefixed";
 import { pipe } from "it-pipe";

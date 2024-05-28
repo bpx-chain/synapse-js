@@ -7,9 +7,9 @@ import {
   type PeerIdStr,
   ProtocolError,
   type ShardInfo
-} from "@waku/interfaces";
-import { proto_metadata } from "@waku/proto";
-import { encodeRelayShard, Logger, shardInfoToPubsubTopics } from "@waku/utils";
+} from "@synapse/interfaces";
+import { proto_metadata } from "@synapse/proto";
+import { encodeRelayShard, Logger, shardInfoToPubsubTopics } from "@synapse/utils";
 import all from "it-all";
 import * as lp from "it-length-prefixed";
 import { pipe } from "it-pipe";

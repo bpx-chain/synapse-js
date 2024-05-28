@@ -1,5 +1,5 @@
-import type { IProtoMessage } from "@waku/interfaces";
-import { contentTopicToPubsubTopic } from "@waku/utils";
+import type { IProtoMessage } from "@synapse/interfaces";
+import { contentTopicToPubsubTopic } from "@synapse/utils";
 import { expect } from "chai";
 import fc from "fast-check";
 

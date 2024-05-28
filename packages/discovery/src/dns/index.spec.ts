@@ -1,4 +1,4 @@
-import { getPseudoRandomSubset } from "@waku/utils";
+import { getPseudoRandomSubset } from "@synapse/utils";
 import { expect } from "chai";
 
 describe("Discovery", () => {

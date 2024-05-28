@@ -1,8 +1,8 @@
-[![NPM](https://nodei.co/npm/@waku/core.png)](https://npmjs.org/package/@waku/core)
+[![NPM](https://nodei.co/npm/@synapse/core.png)](https://npmjs.org/package/@synapse/core)
 
 [![Discord chat](https://img.shields.io/discord/864066763682218004.svg?logo=discord&colorB=7289DA)](https://discord.gg/Nrac59MfSX)
 
-# @waku/core
+# @synapse/core
 
 Core components of js-waku, a TypeScript implementation of the [Waku v2 protocol](https://rfc.vac.dev/spec/10/).
 
@@ -18,7 +18,7 @@ Core components of js-waku, a TypeScript implementation of the [Waku v2 protocol
 API Documentation can also be generated locally:
 
 ```shell
-git clone https://github.com/waku-org/js-waku.git
+git clone https://github.com/bpx-chain/synapse-js.git
 cd js-waku
 npm install
 npm run doc
@@ -26,11 +26,11 @@ npm run doc
 
 ## Changelog
 
-Release changelog can be found in [CHANGELOG.md](https://github.com/waku-org/js-waku/blob/master/packages/core/CHANGELOG.md).
+Release changelog can be found in [CHANGELOG.md](https://github.com/bpx-chain/synapse-js/blob/master/packages/core/CHANGELOG.md).
 
 ## Bugs, Questions & Features
 
-If you encounter any bug or would like to propose new features, feel free to [open an issue](https://github.com/waku-org/js-waku/issues/new/).
+If you encounter any bug or would like to propose new features, feel free to [open an issue](https://github.com/bpx-chain/synapse-js/issues/new/).
 
 For general discussion, get help or latest news, join **#js-waku** on [Vac Discord](https://discord.gg/Nrac59MfSX) or the [Waku Telegram Group](https://t.me/waku_org).
 
@@ -40,16 +40,16 @@ You can track progress on the [project board](https://github.com/orgs/waku-org/p
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/waku-org/js-waku/blob/master/CONTRIBUTING.md).
+See [CONTRIBUTING.md](https://github.com/bpx-chain/synapse-js/blob/master/CONTRIBUTING.md).
 
 ## License
 
 Licensed and distributed under either of
 
-- MIT license: [LICENSE-MIT](https://github.com/waku-org/js-waku/blob/master/LICENSE-MIT) or http://opensource.org/licenses/MIT
+- MIT license: [LICENSE-MIT](https://github.com/bpx-chain/synapse-js/blob/master/LICENSE-MIT) or http://opensource.org/licenses/MIT
 
 or
 
-- Apache License, Version 2.0, ([LICENSE-APACHE-v2](https://github.com/waku-org/js-waku/blob/master/LICENSE-APACHE-v2) or http://www.apache.org/licenses/LICENSE-2.0)
+- Apache License, Version 2.0, ([LICENSE-APACHE-v2](https://github.com/bpx-chain/synapse-js/blob/master/LICENSE-APACHE-v2) or http://www.apache.org/licenses/LICENSE-2.0)
 
 at your option. These files may not be copied, modified, or distributed except according to those terms.

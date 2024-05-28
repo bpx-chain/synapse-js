@@ -11,8 +11,8 @@ import type {
   DnsDiscoveryComponents,
   IEnr,
   NodeCapabilityCount
-} from "@waku/interfaces";
-import { encodeRelayShard, Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { encodeRelayShard, Logger } from "@synapse/utils";
 
 import {
   DEFAULT_BOOTSTRAP_TAG_NAME,
@@ -131,7 +131,7 @@ export class PeerDiscoveryDns
   }
 
   get [Symbol.toStringTag](): string {
-    return "@waku/bootstrap";
+    return "@synapse/bootstrap";
   }
 }
 

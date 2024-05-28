@@ -23,10 +23,10 @@ import {
   ProtocolError,
   PubsubTopic,
   SDKProtocolResult
-} from "@waku/interfaces";
-import { isWireSizeUnderCap, toAsyncIterator } from "@waku/utils";
-import { pushOrInitMapSet } from "@waku/utils";
-import { Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { isWireSizeUnderCap, toAsyncIterator } from "@synapse/utils";
+import { pushOrInitMapSet } from "@synapse/utils";
+import { Logger } from "@synapse/utils";
 
 import { RelayCodecs } from "./constants.js";
 import { messageValidator } from "./message_validator.js";

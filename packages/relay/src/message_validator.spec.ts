@@ -1,8 +1,8 @@
 import { TopicValidatorResult } from "@libp2p/interface";
 import type { UnsignedMessage } from "@libp2p/interface";
 import { createSecp256k1PeerId } from "@libp2p/peer-id-factory";
-import { createEncoder } from "@waku/core";
-import { determinePubsubTopic } from "@waku/utils";
+import { createEncoder } from "@synapse/core";
+import { determinePubsubTopic } from "@synapse/utils";
 import { expect } from "chai";
 import fc from "fast-check";
 

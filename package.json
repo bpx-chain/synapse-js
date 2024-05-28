@@ -1,5 +1,5 @@
 {
-  "name": "@waku/root",
+  "name": "@synapse/root",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -13,8 +13,6 @@
     "packages/discovery",
     "packages/message-encryption",
     "packages/sdk",
-    "packages/tests",
-    "packages/browser-tests",
     "packages/build-utils",
     "packages/react-native-polyfills"
   ],

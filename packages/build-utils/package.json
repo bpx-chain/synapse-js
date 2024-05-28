@@ -1,5 +1,5 @@
 {
-  "name": "@waku/build-utils",
+  "name": "@synapse/build-utils",
   "version": "1.0.0",
   "description": "Build utilities for js-waku",
   "main": "index.js",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waku-org/js-waku.git"
+    "url": "git+https://github.com/bpx-chain/synapse-js.git"
   },
   "author": "Waku Team",
   "license": "MIT OR Apache-2.0",
   "bugs": {
-    "url": "https://github.com/waku-org/js-waku/issues"
+    "url": "https://github.com/bpx-chain/synapse-js/issues"
   },
-  "homepage": "https://github.com/waku-org/js-waku#readme"
+  "homepage": "https://github.com/bpx-chain/synapse-js#readme"
 }

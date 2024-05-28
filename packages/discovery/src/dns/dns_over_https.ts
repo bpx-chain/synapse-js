@@ -1,6 +1,6 @@
-import type { DnsClient } from "@waku/interfaces";
-import { Logger } from "@waku/utils";
-import { bytesToUtf8 } from "@waku/utils/bytes";
+import type { DnsClient } from "@synapse/interfaces";
+import { Logger } from "@synapse/utils";
+import { bytesToUtf8 } from "@synapse/utils/bytes";
 import { Endpoint, query, wellknown } from "dns-query";
 
 const log = new Logger("dns-over-https");

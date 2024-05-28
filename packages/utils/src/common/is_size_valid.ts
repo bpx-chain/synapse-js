@@ -1,4 +1,4 @@
-import type { IEncoder, IMessage } from "@waku/interfaces";
+import type { IEncoder, IMessage } from "@synapse/interfaces";
 
 const MB = 1024 ** 2;
 const SIZE_CAP_IN_MB = 1;

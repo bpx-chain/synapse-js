@@ -1,4 +1,4 @@
-import { WakuMessage as WakuMessageProto } from "@waku/proto";
+import { WakuMessage as WakuMessageProto } from "@synapse/proto";
 import { expect } from "chai";
 
 import { toProtoMessage } from "./to_proto_message.js";

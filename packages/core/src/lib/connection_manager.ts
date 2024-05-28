@@ -12,10 +12,10 @@ import {
   PeersByDiscoveryResult,
   PubsubTopic,
   ShardInfo
-} from "@waku/interfaces";
-import { Libp2p, Tags } from "@waku/interfaces";
-import { decodeRelayShard, shardInfoToPubsubTopics } from "@waku/utils";
-import { Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { Libp2p, Tags } from "@synapse/interfaces";
+import { decodeRelayShard, shardInfoToPubsubTopics } from "@synapse/utils";
+import { Logger } from "@synapse/utils";
 
 import { KeepAliveManager } from "./keep_alive_manager.js";
 

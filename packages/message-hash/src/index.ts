@@ -1,12 +1,12 @@
 import { sha256 } from "@noble/hashes/sha256";
-import type { IDecodedMessage, IProtoMessage } from "@waku/interfaces";
-import { isDefined } from "@waku/utils";
+import type { IDecodedMessage, IProtoMessage } from "@synapse/interfaces";
+import { isDefined } from "@synapse/utils";
 import {
   bytesToUtf8,
   concat,
   numberToBytes,
   utf8ToBytes
-} from "@waku/utils/bytes";
+} from "@synapse/utils/bytes";
 
 /**
  * Deterministic Message Hashing as defined in

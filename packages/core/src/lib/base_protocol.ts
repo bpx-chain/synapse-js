@@ -5,13 +5,13 @@ import type {
   Libp2pComponents,
   ProtocolCreateOptions,
   PubsubTopic
-} from "@waku/interfaces";
-import { ensureShardingConfigured, Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { ensureShardingConfigured, Logger } from "@synapse/utils";
 import {
   getConnectedPeersForProtocolAndShard,
   getPeersForProtocol,
   sortPeersByLatency
-} from "@waku/utils/libp2p";
+} from "@synapse/utils/libp2p";
 
 import { filterPeersByDiscovery } from "./filterPeers.js";
 import { StreamManager } from "./stream_manager.js";

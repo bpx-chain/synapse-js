@@ -1,5 +1,5 @@
 import type { PeerId } from "@libp2p/interface";
-import { LightPushCore } from "@waku/core";
+import { LightPushCore } from "@synapse/core";
 import {
   Failure,
   type IEncoder,
@@ -9,8 +9,8 @@ import {
   type ProtocolCreateOptions,
   ProtocolError,
   SDKProtocolResult
-} from "@waku/interfaces";
-import { ensurePubsubTopicIsConfigured, Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { ensurePubsubTopicIsConfigured, Logger } from "@synapse/utils";
 
 import { BaseProtocolSDK } from "./base_protocol.js";
 
@@ -69,7 +69,7 @@ class LightPushSDK extends BaseProtocolSDK implements ILightPushSDK {
       } else {
         log.error("Failed to send message to peer", result.reason);
         failures.push({ error: ProtocolError.GENERIC_FAIL });
-        // TODO: handle renewing faulty peers with new peers (https://github.com/waku-org/js-waku/issues/1463)
+        // TODO: handle renewing faulty peers with new peers (https://github.com/bpx-chain/synapse-js/issues/1463)
       }
     }
 

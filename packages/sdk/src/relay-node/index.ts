@@ -1,5 +1,5 @@
-import { type FullNode, type RelayNode } from "@waku/interfaces";
-import { RelayCreateOptions, wakuRelay } from "@waku/relay";
+import { type FullNode, type RelayNode } from "@synapse/interfaces";
+import { RelayCreateOptions, wakuRelay } from "@synapse/relay";
 
 import { wakuFilter } from "../protocols/filter.js";
 import { wakuLightPush } from "../protocols/light_push.js";

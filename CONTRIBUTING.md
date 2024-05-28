@@ -68,4 +68,4 @@ about Git.
 - pre releases;
 
 Public releases happen by merging PRs opened by `release-please` action.
-Pre releases happen manually by triggering [this workflow](https://github.com/waku-org/js-waku/actions/workflows/pre-release.yml)
+Pre releases happen manually by triggering [this workflow](https://github.com/bpx-chain/synapse-js/actions/workflows/pre-release.yml)

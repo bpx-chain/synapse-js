@@ -1,5 +1,5 @@
 {
-  "name": "@waku/react-native-polyfills",
+  "name": "@synapse/react-native-polyfills",
   "version": "0.0.1",
   "description": "Set of polyfills for Waku for React Native environment",
   "module": "./dist/index.js",
@@ -8,13 +8,13 @@
     "./metro": "./dist/metro.js"
   },
   "type": "module",
-  "homepage": "https://github.com/waku-org/js-waku/tree/master/packages/react-native-polyfills#readme",
+  "homepage": "https://github.com/bpx-chain/synapse-js/tree/master/packages/react-native-polyfills#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/waku-org/js-waku.git"
+    "url": "https://github.com/bpx-chain/synapse-js.git"
   },
   "bugs": {
-    "url": "https://github.com/waku-org/js-waku/issues"
+    "url": "https://github.com/bpx-chain/synapse-js/issues"
   },
   "license": "MIT OR Apache-2.0",
   "keywords": [

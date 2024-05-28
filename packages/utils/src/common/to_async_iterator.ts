@@ -4,7 +4,7 @@ import type {
   IDecoder,
   IReceiver,
   Unsubscribe
-} from "@waku/interfaces";
+} from "@synapse/interfaces";
 
 /**
  * Options for configuring the behavior of an iterator.

@@ -1,5 +1,5 @@
-import type { IDecodedMessage, IProtoMessage } from "@waku/interfaces";
-import { bytesToHex, hexToBytes } from "@waku/utils/bytes";
+import type { IDecodedMessage, IProtoMessage } from "@synapse/interfaces";
+import { bytesToHex, hexToBytes } from "@synapse/utils/bytes";
 import { expect } from "chai";
 
 import { messageHash } from "./index.js";

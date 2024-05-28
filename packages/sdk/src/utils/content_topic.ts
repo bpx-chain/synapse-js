@@ -1,16 +1,16 @@
 import type { Multiaddr } from "@multiformats/multiaddr";
-import { createDecoder, DecodedMessage, waitForRemotePeer } from "@waku/core";
+import { createDecoder, DecodedMessage, waitForRemotePeer } from "@synapse/core";
 import {
   Callback,
   IDecoder,
   ISubscriptionSDK,
   LightNode,
   Protocols
-} from "@waku/interfaces";
+} from "@synapse/interfaces";
 import {
   contentTopicToPubsubTopic,
   shardInfoToPubsubTopics
-} from "@waku/utils";
+} from "@synapse/utils";
 
 import { createLightNode } from "../light-node/index.js";
 

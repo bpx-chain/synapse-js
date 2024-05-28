@@ -1,5 +1,5 @@
 {
-  "name": "@waku/core",
+  "name": "@synapse/core",
   "version": "0.0.29",
   "description": "TypeScript implementation of the Waku v2 protocol",
   "types": "./dist/index.d.ts",
@@ -33,13 +33,13 @@
     }
   },
   "type": "module",
-  "homepage": "https://github.com/waku-org/js-waku/tree/master/packages/core#readme",
+  "homepage": "https://github.com/bpx-chain/synapse-js/tree/master/packages/core#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/waku-org/js-waku.git"
+    "url": "https://github.com/bpx-chain/synapse-js.git"
   },
   "bugs": {
-    "url": "https://github.com/waku-org/js-waku/issues"
+    "url": "https://github.com/bpx-chain/synapse-js/issues"
   },
   "license": "MIT OR Apache-2.0",
   "keywords": [
@@ -73,10 +73,10 @@
   },
   "dependencies": {
     "@libp2p/ping": "^1.0.12",
-    "@waku/enr": "^0.0.23",
-    "@waku/interfaces": "0.0.24",
-    "@waku/proto": "0.0.7",
-    "@waku/utils": "0.0.17",
+    "@synapse/enr": "^0.0.23",
+    "@synapse/interfaces": "0.0.24",
+    "@synapse/proto": "0.0.7",
+    "@synapse/utils": "0.0.17",
     "debug": "^4.3.4",
     "it-all": "^3.0.4",
     "it-length-prefixed": "^9.0.4",
@@ -94,7 +94,7 @@
     "@types/debug": "^4.1.12",
     "@types/mocha": "^10.0.6",
     "@types/uuid": "^9.0.8",
-    "@waku/build-utils": "*",
+    "@synapse/build-utils": "*",
     "chai": "^4.3.10",
     "cspell": "^8.6.1",
     "fast-check": "^3.15.1",
@@ -108,16 +108,16 @@
   "peerDependencies": {
     "@multiformats/multiaddr": "^12.0.0",
     "libp2p": "^1.1.2",
-    "@waku/enr": "^0.0.21",
-    "@waku/interfaces": "0.0.22",
-    "@waku/proto": "0.0.6",
-    "@waku/utils": "0.0.15"
+    "@synapse/enr": "^0.0.21",
+    "@synapse/interfaces": "0.0.22",
+    "@synapse/proto": "0.0.6",
+    "@synapse/utils": "0.0.15"
   },
   "peerDependenciesMeta": {
     "@multiformats/multiaddr": {
       "optional": true
     },
-    "@waku/interfaces": {
+    "@synapse/interfaces": {
       "optional": true
     }
   },

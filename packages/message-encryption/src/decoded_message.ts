@@ -1,8 +1,8 @@
 import {
   DecodedMessage as DecodedMessageV0,
   proto
-} from "@waku/core/lib/message/version_0";
-import type { IDecodedMessage } from "@waku/interfaces";
+} from "@synapse/core/lib/message/version_0";
+import type { IDecodedMessage } from "@synapse/interfaces";
 import { equals } from "uint8arrays/equals";
 
 export class DecodedMessage

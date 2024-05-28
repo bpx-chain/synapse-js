@@ -1,5 +1,5 @@
 {
-  "name": "@waku/interfaces",
+  "name": "@synapse/interfaces",
   "version": "0.0.24",
   "description": "Definition of Waku interfaces",
   "types": "./dist/index.d.ts",
@@ -12,13 +12,13 @@
   },
   "type": "module",
   "author": "Waku Team",
-  "homepage": "https://github.com/waku-org/js-waku/tree/master/packages/interfaces#readme",
+  "homepage": "https://github.com/bpx-chain/synapse-js/tree/master/packages/interfaces#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/waku-org/js-waku.git"
+    "url": "https://github.com/bpx-chain/synapse-js.git"
   },
   "bugs": {
-    "url": "https://github.com/waku-org/js-waku/issues"
+    "url": "https://github.com/bpx-chain/synapse-js/issues"
   },
   "license": "MIT OR Apache-2.0",
   "keywords": [
@@ -64,6 +64,6 @@
     "README.md"
   ],
   "dependencies": {
-    "@waku/proto": "^0.0.7"
+    "@synapse/proto": "^0.0.7"
   }
 }

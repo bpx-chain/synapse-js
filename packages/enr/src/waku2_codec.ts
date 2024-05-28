@@ -1,4 +1,4 @@
-import type { Waku2 } from "@waku/interfaces";
+import type { Waku2 } from "@synapse/interfaces";
 
 export function encodeWaku2(protocols: Waku2): number {
   let byte = 0;

@@ -1,5 +1,5 @@
 import type { Connection, Peer, PeerStore } from "@libp2p/interface";
-import { ShardInfo } from "@waku/interfaces";
+import { ShardInfo } from "@synapse/interfaces";
 
 import { bytesToUtf8 } from "../bytes/index.js";
 import { decodeRelayShard } from "../common/relay_shard_codec.js";

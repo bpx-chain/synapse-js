@@ -1,7 +1,7 @@
 import type { Stream } from "@libp2p/interface";
 import { isPeerId, PeerId } from "@libp2p/interface";
 import { multiaddr, Multiaddr, MultiaddrInput } from "@multiformats/multiaddr";
-import { ConnectionManager, DecodedMessage } from "@waku/core";
+import { ConnectionManager, DecodedMessage } from "@synapse/core";
 import type {
   Callback,
   IFilterSDK,
@@ -14,9 +14,9 @@ import type {
   ProtocolCreateOptions,
   PubsubTopic,
   Waku
-} from "@waku/interfaces";
-import { Protocols } from "@waku/interfaces";
-import { Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { Protocols } from "@synapse/interfaces";
+import { Logger } from "@synapse/utils";
 
 import { subscribeToContentTopic } from "./utils/content_topic.js";
 
@@ -32,19 +32,19 @@ export interface WakuOptions {
    * Set keep alive frequency in seconds: Waku will send a `/ipfs/ping/1.0.0`
    * request to each peer after the set number of seconds. Set to 0 to disable.
    *
-   * @default {@link @waku/core.DefaultPingKeepAliveValueSecs}
+   * @default {@link @synapse/core.DefaultPingKeepAliveValueSecs}
    */
   pingKeepAlive?: number;
   /**
    * Set keep alive frequency in seconds: Waku will send a ping message over
    * relay to each peer after the set number of seconds. Set to 0 to disable.
    *
-   * @default {@link @waku/core.DefaultRelayKeepAliveValueSecs}
+   * @default {@link @synapse/core.DefaultRelayKeepAliveValueSecs}
    */
   relayKeepAlive?: number;
   /**
    * Set the user agent string to be used in identification of the node.
-   * @default {@link @waku/core.DefaultUserAgent}
+   * @default {@link @synapse/core.DefaultUserAgent}
    */
   userAgent?: string;
   pubsubTopics: PubsubTopic[];

@@ -13,8 +13,8 @@ import {
   type Libp2pComponents,
   type LocalStoragePeerInfo,
   Tags
-} from "@waku/interfaces";
-import { getWsMultiaddrFromMultiaddrs, Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { getWsMultiaddrFromMultiaddrs, Logger } from "@synapse/utils";
 
 const log = new Logger("peer-exchange-discovery");
 
@@ -45,7 +45,7 @@ export class LocalPeerCacheDiscovery
   }
 
   get [Symbol.toStringTag](): string {
-    return "@waku/local-peer-cache-discovery";
+    return "@synapse/local-peer-cache-discovery";
   }
 
   async start(): Promise<void> {

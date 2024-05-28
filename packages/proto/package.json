@@ -1,5 +1,5 @@
 {
-  "name": "@waku/proto",
+  "name": "@synapse/proto",
   "version": "0.0.7",
   "description": "Protobuf definitions for Waku",
   "types": "./dist/index.d.ts",
@@ -12,13 +12,13 @@
   },
   "type": "module",
   "author": "Waku Team",
-  "homepage": "https://github.com/waku-org/js-waku/tree/master/packages/proto#readme",
+  "homepage": "https://github.com/bpx-chain/synapse-js/tree/master/packages/proto#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/waku-org/js-waku.git"
+    "url": "https://github.com/bpx-chain/synapse-js.git"
   },
   "bugs": {
-    "url": "https://github.com/waku-org/js-waku/issues"
+    "url": "https://github.com/bpx-chain/synapse-js/issues"
   },
   "license": "MIT OR Apache-2.0",
   "keywords": [
@@ -50,7 +50,7 @@
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
-    "@waku/build-utils": "*",
+    "@synapse/build-utils": "*",
     "cspell": "^8.6.1",
     "npm-run-all": "^4.1.5",
     "protons": "^7.0.2",

@@ -1,7 +1,7 @@
 import nodeCrypto from "crypto";
 
 import * as secp from "@noble/secp256k1";
-import { concat } from "@waku/utils/bytes";
+import { concat } from "@synapse/utils/bytes";
 import sha3 from "js-sha3";
 
 import { Asymmetric, Symmetric } from "../misc.js";

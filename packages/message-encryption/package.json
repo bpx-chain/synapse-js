@@ -1,5 +1,5 @@
 {
-  "name": "@waku/message-encryption",
+  "name": "@synapse/message-encryption",
   "version": "0.0.27",
   "description": "Waku Message Payload Encryption",
   "types": "./dist/index.d.ts",
@@ -33,13 +33,13 @@
   },
   "type": "module",
   "author": "Waku Team",
-  "homepage": "https://github.com/waku-org/js-waku/tree/master/packages/message-encryption#readme",
+  "homepage": "https://github.com/bpx-chain/synapse-js/tree/master/packages/message-encryption#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/waku-org/js-waku.git"
+    "url": "https://github.com/bpx-chain/synapse-js.git"
   },
   "bugs": {
-    "url": "https://github.com/waku-org/js-waku/issues"
+    "url": "https://github.com/bpx-chain/synapse-js/issues"
   },
   "license": "MIT OR Apache-2.0",
   "keywords": [
@@ -76,10 +76,10 @@
   },
   "dependencies": {
     "@noble/secp256k1": "^1.7.1",
-    "@waku/core": "0.0.29",
-    "@waku/interfaces": "0.0.24",
-    "@waku/proto": "0.0.7",
-    "@waku/utils": "0.0.17",
+    "@synapse/core": "0.0.29",
+    "@synapse/interfaces": "0.0.24",
+    "@synapse/proto": "0.0.7",
+    "@synapse/utils": "0.0.17",
     "debug": "^4.3.4",
     "js-sha3": "^0.9.2",
     "uint8arrays": "^5.0.1"
@@ -90,7 +90,7 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@types/chai": "^4.3.11",
     "@types/mocha": "^10.0.6",
-    "@waku/build-utils": "*",
+    "@synapse/build-utils": "*",
     "chai": "^4.3.10",
     "cspell": "^8.6.1",
     "fast-check": "^3.15.1",
@@ -100,13 +100,13 @@
     "rollup": "^4.12.0"
   },
   "peerDependencies": {
-    "@waku/core": "0.0.27",
-    "@waku/interfaces": "0.0.22",
-    "@waku/proto": "0.0.6",
-    "@waku/utils": "0.0.15"
+    "@synapse/core": "0.0.27",
+    "@synapse/interfaces": "0.0.22",
+    "@synapse/proto": "0.0.6",
+    "@synapse/utils": "0.0.15"
   },
   "peerDependenciesMeta": {
-    "@waku/interfaces": {
+    "@synapse/interfaces": {
       "optional": true
     }
   },

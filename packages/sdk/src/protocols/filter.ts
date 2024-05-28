@@ -1,5 +1,5 @@
 import type { Peer } from "@libp2p/interface";
-import { FilterCore } from "@waku/core";
+import { FilterCore } from "@synapse/core";
 import {
   type Callback,
   type ContentTopic,
@@ -19,16 +19,16 @@ import {
   type ShardingParams,
   SubscribeOptions,
   type Unsubscribe
-} from "@waku/interfaces";
-import { messageHashStr } from "@waku/message-hash";
-import { WakuMessage } from "@waku/proto";
+} from "@synapse/interfaces";
+import { messageHashStr } from "@synapse/message-hash";
+import { WakuMessage } from "@synapse/proto";
 import {
   ensurePubsubTopicIsConfigured,
   groupByContentTopic,
   Logger,
   shardInfoToPubsubTopics,
   toAsyncIterator
-} from "@waku/utils";
+} from "@synapse/utils";
 
 import { BaseProtocolSDK } from "./base_protocol.js";
 
@@ -219,7 +219,7 @@ export class SubscriptionManager implements ISubscriptionSDK {
       }
     }
 
-    // TODO: handle renewing faulty peers with new peers (https://github.com/waku-org/js-waku/issues/1463)
+    // TODO: handle renewing faulty peers with new peers (https://github.com/bpx-chain/synapse-js/issues/1463)
 
     return result;
   }

@@ -5,7 +5,7 @@ import {
   ShardInfo,
   ShardingParams,
   SingleShardInfo
-} from "@waku/interfaces";
+} from "@synapse/interfaces";
 
 import { concat, utf8ToBytes } from "../bytes/index.js";
 

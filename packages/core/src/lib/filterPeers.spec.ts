@@ -1,7 +1,7 @@
 import { Peer } from "@libp2p/interface";
 import type { Tag } from "@libp2p/interface";
 import { createSecp256k1PeerId } from "@libp2p/peer-id-factory";
-import { Tags } from "@waku/interfaces";
+import { Tags } from "@synapse/interfaces";
 import { expect } from "chai";
 
 import { filterPeersByDiscovery } from "./filterPeers.js";

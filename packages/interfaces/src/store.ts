@@ -1,4 +1,4 @@
-import { proto_store as proto } from "@waku/proto";
+import { proto_store as proto } from "@synapse/proto";
 
 import type { IDecodedMessage, IDecoder } from "./message.js";
 import type { IBaseProtocolCore, IBaseProtocolSDK } from "./protocols.js";

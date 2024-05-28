@@ -12,8 +12,8 @@ import {
   type PeerExchangeQueryResult,
   PubsubTopic,
   Tags
-} from "@waku/interfaces";
-import { encodeRelayShard, Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { encodeRelayShard, Logger } from "@synapse/utils";
 
 import { PeerExchangeCodec, WakuPeerExchange } from "./waku_peer_exchange.js";
 
@@ -130,7 +130,7 @@ export class PeerExchangeDiscovery
   }
 
   get [Symbol.toStringTag](): string {
-    return "@waku/peer-exchange";
+    return "@synapse/peer-exchange";
   }
 
   private readonly startRecurringQueries = async (

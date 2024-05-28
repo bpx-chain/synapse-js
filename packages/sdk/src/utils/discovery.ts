@@ -4,8 +4,8 @@ import {
   wakuDnsDiscovery,
   wakuLocalPeerCacheDiscovery,
   wakuPeerExchangeDiscovery
-} from "@waku/discovery";
-import { type Libp2pComponents, PubsubTopic } from "@waku/interfaces";
+} from "@synapse/discovery";
+import { type Libp2pComponents, PubsubTopic } from "@synapse/interfaces";
 
 const DEFAULT_NODE_REQUIREMENTS = {
   lightPush: 1,

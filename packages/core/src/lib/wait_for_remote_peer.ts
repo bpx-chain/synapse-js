@@ -4,18 +4,18 @@ import type {
   IMetadata,
   IRelay,
   Waku
-} from "@waku/interfaces";
-import { Protocols } from "@waku/interfaces";
-import { Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { Protocols } from "@synapse/interfaces";
+import { Logger } from "@synapse/utils";
 import { pEvent } from "p-event";
 const log = new Logger("wait-for-remote-peer");
 
-//TODO: move this function within the Waku class: https://github.com/waku-org/js-waku/issues/1761
+//TODO: move this function within the Waku class: https://github.com/bpx-chain/synapse-js/issues/1761
 /**
  * Wait for a remote peer to be ready given the passed protocols.
  * Must be used after attempting to connect to nodes, using
- * {@link @waku/sdk!WakuNode.dial} or a bootstrap method with
- * {@link @waku/sdk!createLightNode}.
+ * {@link @synapse/sdk!WakuNode.dial} or a bootstrap method with
+ * {@link @synapse/sdk!createLightNode}.
  *
  * If the passed protocols is a GossipSub protocol, then it resolves only once
  * a peer is in a mesh, to help ensure that other peers will send and receive
@@ -85,7 +85,7 @@ export async function waitForRemotePeer(
   }
 }
 
-//TODO: move this function within protocol SDK class: https://github.com/waku-org/js-waku/issues/1761
+//TODO: move this function within protocol SDK class: https://github.com/bpx-chain/synapse-js/issues/1761
 /**
  * Wait for a peer with the given protocol to be connected.
  * If sharding is enabled on the node, it will also wait for the peer to be confirmed by the metadata service.

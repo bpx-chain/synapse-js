@@ -1,9 +1,9 @@
 import type { PeerId, PeerStore } from "@libp2p/interface";
 import type { PingService } from "@libp2p/ping";
-import type { IRelay, PeerIdStr } from "@waku/interfaces";
-import type { KeepAliveOptions } from "@waku/interfaces";
-import { Logger, pubsubTopicToSingleShardInfo } from "@waku/utils";
-import { utf8ToBytes } from "@waku/utils/bytes";
+import type { IRelay, PeerIdStr } from "@synapse/interfaces";
+import type { KeepAliveOptions } from "@synapse/interfaces";
+import { Logger, pubsubTopicToSingleShardInfo } from "@synapse/utils";
+import { utf8ToBytes } from "@synapse/utils/bytes";
 
 import { createEncoder } from "./message/version_0.js";
 

@@ -8,10 +8,10 @@ import {
   type ProtocolCreateOptions,
   ProtocolError,
   type ThisOrThat
-} from "@waku/interfaces";
-import { PushResponse } from "@waku/proto";
-import { isMessageSizeUnderCap } from "@waku/utils";
-import { Logger } from "@waku/utils";
+} from "@synapse/interfaces";
+import { PushResponse } from "@synapse/proto";
+import { isMessageSizeUnderCap } from "@synapse/utils";
+import { Logger } from "@synapse/utils";
 import all from "it-all";
 import * as lp from "it-length-prefixed";
 import { pipe } from "it-pipe";
